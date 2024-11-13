@@ -1,0 +1,73 @@
+﻿@model WebCayCanh.HDT.Data.SanPham
+
+@{
+    ViewData["Title"] = "Chỉnh sửa sản phẩm";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Chỉnh Sửa Thông Tin Sản Phẩm</h2>
+    <hr />
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <!-- Form chỉnh sửa sản phẩm -->
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                <!-- Mã sản phẩm (ẩn) -->
+                <input type="hidden" asp-for="MaSp" />
+
+                <!-- Mã Phân Loại -->
+                <div class="mb-3">
+                    <label asp-for="MaPhanLoai" class="form-label">Mã Phân Loại</label>
+                    <input asp-for="MaPhanLoai" class="form-control" placeholder="Nhập mã phân loại" />
+                    <span asp-validation-for="MaPhanLoai" class="text-danger"></span>
+                </div>
+
+                <!-- Tên Sản Phẩm -->
+                <div class="mb-3">
+                    <label asp-for="TenSp" class="form-label">Tên Sản Phẩm</label>
+                    <input asp-for="TenSp" class="form-control" placeholder="Nhập tên sản phẩm" />
+                    <span asp-validation-for="TenSp" class="text-danger"></span>
+                </div>
+
+                <!-- Giá Sản Phẩm -->
+                <div class="mb-3">
+                    <label asp-for="GiaSp" class="form-label">Giá Sản Phẩm</label>
+                    <input asp-for="GiaSp" class="form-control" placeholder="Nhập giá sản phẩm" />
+                    <span asp-validation-for="GiaSp" class="text-danger"></span>
+                </div>
+
+                <!-- Số Lượng Tồn Kho -->
+                <div class="mb-3">
+                    <label asp-for="SoLuongTonKho" class="form-label">Số Lượng Tồn Kho</label>
+                    <input asp-for="SoLuongTonKho" class="form-control" placeholder="Nhập số lượng tồn kho" />
+                    <span asp-validation-for="SoLuongTonKho" class="text-danger"></span>
+                </div>
+
+                <!-- Mô Tả Sản Phẩm -->
+                <div class="mb-3">
+                    <label asp-for="MoTaSp" class="form-label">Mô Tả Sản Phẩm</label>
+                    <textarea asp-for="MoTaSp" class="form-control" rows="4" placeholder="Nhập mô tả sản phẩm"></textarea>
+                    <span asp-validation-for="MoTaSp" class="text-danger"></span>
+                </div>
+
+                <!-- Nút lưu thay đổi -->
+                <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-success">
+                        <i class="fa fa-save"></i> Lưu Thay Đổi
+                    </button>
+                    <a class="btn btn-secondary" asp-action="Index">
+                        <i class="fa fa-arrow-left"></i> Quay Lại Danh Sách
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

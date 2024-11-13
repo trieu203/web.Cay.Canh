@@ -1,0 +1,71 @@
+﻿@model IEnumerable<WebCayCanh.HDT.Data.SanPham>
+
+@{
+    ViewData["Title"] = "Danh sách sản phẩm";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Quản Lý Sản Phẩm</h2>
+
+    <!-- Nút thêm sản phẩm mới -->
+    <div class="text-end mb-3">
+        <a class="btn btn-primary" asp-action="Create">
+            <i class="fa fa-plus-circle"></i> Thêm Sản Phẩm Mới
+        </a>
+    </div>
+
+    <!-- Bảng hiển thị sản phẩm -->
+    <table class="table table-hover table-bordered align-middle">
+        <thead class="table-dark text-center">
+            <tr>
+                <th>Phân Loại</th>
+                <th>Tên Sản Phẩm</th>
+                <th>Giá (VND)</th>
+                <th>Số Lượng Tồn Kho</th>
+                <th>Mô Tả</th>
+                <th>Hành Động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (!Model.Any())
+            {
+                <tr>
+                    <td colspan="6" class="text-center text-muted">Không có sản phẩm nào để hiển thị</td>
+                </tr>
+            }
+            else
+            {
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.MaPhanLoai)
+                        </td>
+                        <td>@Html.DisplayFor(modelItem => item.TenSp)</td>
+                        <td>@Html.DisplayFor(modelItem => item.GiaSp)</td>
+                        <td>@Html.DisplayFor(modelItem => item.SoLuongTonKho)</td>
+                        <td>@Html.DisplayFor(modelItem => item.MoTaSp)</td>
+                        <td class="text-center">
+                            <a class="btn btn-warning btn-sm me-2" asp-action="Edit" asp-route-id="@item.MaSp">
+                                <i class="fa fa-edit"></i> Sửa
+                            </a>
+                            <a class="btn btn-info btn-sm me-2" asp-action="Details" asp-route-id="@item.MaSp">
+                                <i class="fa fa-eye"></i> Xem
+                            </a>
+                            <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@item.MaSp"
+                               onclick="return confirm('Bạn có chắc chắn muốn xóa sản phẩm này?');">
+                                <i class="fa fa-trash"></i> Xóa
+                            </a>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,49 @@
+﻿@model WebCayCanh.HDT.Data.SanPham
+
+@{
+    ViewData["Title"] = "Chi tiết sản phẩm";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Chi Tiết Sản Phẩm</h2>
+    <hr />
+
+    <dl class="row justify-content-center">
+        <!-- Mã Phân Loại -->
+        <dt class="col-sm-3 fw-bold">Mã Phân Loại:</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.MaPhanLoai)</dd>
+
+        <!-- Tên Sản Phẩm -->
+        <dt class="col-sm-3 fw-bold">Tên Sản Phẩm:</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.TenSp)</dd>
+
+        <!-- Giá Sản Phẩm -->
+        <dt class="col-sm-3 fw-bold">Giá Sản Phẩm:</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.GiaSp) VND</dd>
+
+        <!-- Số Lượng Tồn Kho -->
+        <dt class="col-sm-3 fw-bold">Số Lượng Tồn Kho:</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.SoLuongTonKho)</dd>
+
+        <!-- Mô Tả Sản Phẩm -->
+        <dt class="col-sm-3 fw-bold">Mô Tả:</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.MoTaSp)</dd>
+    </dl>
+    <hr />
+
+    <!-- Các nút hành động -->
+    <div class="d-flex justify-content-center mt-4">
+        <a class="btn btn-warning me-3" asp-action="Edit" asp-route-id="@Model?.MaSp">
+            <i class="fa fa-edit"></i> Chỉnh Sửa
+        </a>
+        <a class="btn btn-secondary" asp-action="Index">
+            <i class="fa fa-arrow-left"></i> Quay Lại Danh Sách
+        </a>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
