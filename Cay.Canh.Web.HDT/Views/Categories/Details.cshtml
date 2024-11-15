@@ -1,0 +1,50 @@
+﻿@model Cay.Canh.Web.HDT.Data.Category
+
+@{
+    ViewData["Title"] = "Chi Tiết Danh Mục";
+    Layout = "_LayoutShop";
+}
+
+<h1 class="mb-4 text-center">Chi Tiết Danh Mục</h1>
+
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">Thông Tin Danh Mục</h4>
+        <hr />
+
+        <dl class="row">
+            <dt class="col-sm-3 font-weight-bold">
+                @Html.DisplayNameFor(model => model.CategoryName)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.CategoryName)
+            </dd>
+
+            <dt class="col-sm-3 font-weight-bold">
+                @Html.DisplayNameFor(model => model.Description)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.Description)
+            </dd>
+
+            <dt class="col-sm-3 font-weight-bold">
+                @Html.DisplayNameFor(model => model.CreatedDate)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.CreatedDate)
+            </dd>
+
+            <dt class="col-sm-3 font-weight-bold">
+                @Html.DisplayNameFor(model => model.UpdatedDate)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.UpdatedDate)
+            </dd>
+        </dl>
+    </div>
+</div>
+
+<div class="mt-4 text-center">
+    <a asp-action="Edit" asp-route-id="@Model?.CategoryId" class="btn btn-primary btn-lg">Chỉnh Sửa</a>
+    <a asp-action="Index" class="btn btn-secondary btn-lg ml-3">Trở Lại Danh Sách</a>
+</div>

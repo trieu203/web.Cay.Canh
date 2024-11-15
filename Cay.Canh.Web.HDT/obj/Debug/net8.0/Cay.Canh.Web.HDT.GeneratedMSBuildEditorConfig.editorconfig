@@ -1,0 +1,209 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Cay.Canh.Web.HDT
+build_property.RootNamespace = Cay.Canh.Web.HDT
+build_property.ProjectDir = D:\DO_AN_MON\XAY_DUNG_PHAN_MEM_HDT\src\Cay.Canh.Web.HDT\Cay.Canh.Web.HDT\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\DO_AN_MON\XAY_DUNG_PHAN_MEM_HDT\src\Cay.Canh.Web.HDT\Cay.Canh.Web.HDT
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/CartItems/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydEl0ZW1zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/CartItems/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydEl0ZW1zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/CartItems/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydEl0ZW1zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/CartItems/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydEl0ZW1zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/CartItems/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydEl0ZW1zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Carts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Carts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Carts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Carts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Carts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Categories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Categories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/OrderItems/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJJdGVtc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/OrderItems/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJJdGVtc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/OrderItems/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJJdGVtc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/OrderItems/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJJdGVtc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/OrderItems/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJJdGVtc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Orders/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Orders/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Orders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Orders/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Orders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Products/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Shared/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Shared/_LayoutShop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRTaG9wLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/Cay.Canh.Web.HDT/Cay.Canh.Web.HDT/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-c78y321mv6

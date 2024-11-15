@@ -1,0 +1,681 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Cay.Canh.Web.HDT.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Cay.Canh.Web.HDT.b6krhhsy6u.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\css\\classy-nav.css",
+      "PackagePath": "staticwebassets\\css\\classy-nav.css"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\css\\elegant-icon.css",
+      "PackagePath": "staticwebassets\\css\\elegant-icon.css"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\fonts\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.eot"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\fonts\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.svg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\fonts\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.ttf"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\fonts\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.woff"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\fonts\\classy.eot",
+      "PackagePath": "staticwebassets\\fonts\\classy.eot"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\fonts\\classy.svg",
+      "PackagePath": "staticwebassets\\fonts\\classy.svg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\fonts\\classy.ttf",
+      "PackagePath": "staticwebassets\\fonts\\classy.ttf"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\fonts\\classy.woff",
+      "PackagePath": "staticwebassets\\fonts\\classy.woff"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\1.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\10.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\10.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\11.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\11.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\12.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\12.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\13.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\13.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\14.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\14.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\15.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\15.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\16.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\16.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\17.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\17.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\18.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\18.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\19.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\19.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\2.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\20.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\20.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\21.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\21.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\22.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\22.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\23.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\23.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\24.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\24.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\25.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\25.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\26.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\26.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\27.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\27.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\28.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\28.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\29.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\29.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\3.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\30.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\30.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\31.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\31.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\32.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\32.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\33.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\33.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\34.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\34.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\35.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\35.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\36.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\36.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\37.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\37.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\38.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\38.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\39.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\39.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\4.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\40.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\40.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\41.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\41.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\42.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\42.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\43.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\43.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\44.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\44.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\45.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\45.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\46.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\46.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\47.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\47.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\48.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\48.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\49.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\49.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\5.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\6.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\7.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\7.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\8.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\8.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\9.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-img\\9.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\cool-facts.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\cool-facts.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\subscribe.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\subscribe.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\team1.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\team1.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\team2.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\team2.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\team3.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\team3.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\team4.png",
+      "PackagePath": "staticwebassets\\img\\bg-img\\team4.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\core-img\\b1.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\b1.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\core-img\\b2.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\b2.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\core-img\\b3.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\b3.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\core-img\\b4.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\b4.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\core-img\\cf1.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\cf1.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\core-img\\cf2.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\cf2.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\core-img\\cf3.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\cf3.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\core-img\\cf4.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\cf4.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\core-img\\favicon.ico",
+      "PackagePath": "staticwebassets\\img\\core-img\\favicon.ico"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\core-img\\leaf.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\leaf.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\core-img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\logo.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\core-img\\pot.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\pot.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\core-img\\s1.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\s1.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\core-img\\s2.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\s2.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\core-img\\s3.png",
+      "PackagePath": "staticwebassets\\img\\core-img\\s3.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\js\\active.js",
+      "PackagePath": "staticwebassets\\js\\active.js"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\js\\bootstrap\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\js\\bootstrap\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\popper.min.js"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\js\\jquery\\jquery-2.2.4.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery\\jquery-2.2.4.min.js"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\js\\plugins\\plugins.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\plugins.js"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\scss\\_fonts.scss",
+      "PackagePath": "staticwebassets\\scss\\_fonts.scss"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\scss\\_mixin.scss",
+      "PackagePath": "staticwebassets\\scss\\_mixin.scss"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\scss\\_responsive.scss",
+      "PackagePath": "staticwebassets\\scss\\_responsive.scss"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\scss\\_theme_color.scss",
+      "PackagePath": "staticwebassets\\scss\\_theme_color.scss"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\scss\\style.scss"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\style.css.map",
+      "PackagePath": "staticwebassets\\style.css.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Cay.Canh.Web.HDT.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Cay.Canh.Web.HDT.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Cay.Canh.Web.HDT.props",
+      "PackagePath": "build\\Cay.Canh.Web.HDT.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Cay.Canh.Web.HDT.props",
+      "PackagePath": "buildMultiTargeting\\Cay.Canh.Web.HDT.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Cay.Canh.Web.HDT.props",
+      "PackagePath": "buildTransitive\\Cay.Canh.Web.HDT.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

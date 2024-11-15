@@ -1,0 +1,48 @@
+﻿@model Cay.Canh.Web.HDT.Data.Category
+
+@{
+    ViewData["Title"] = "Tạo Mới Danh Mục";
+    Layout = "_LayoutShop";
+}
+
+<h1 class="mb-4 text-center">Tạo Mới Danh Mục</h1>
+
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">Thông Tin Danh Mục</h4>
+        <hr />
+
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+            <!-- Tên Danh Mục -->
+            <div class="form-group">
+                <label asp-for="CategoryName" class="control-label font-weight-bold"></label>
+                <input asp-for="CategoryName" class="form-control" placeholder="Nhập tên danh mục" />
+                <span asp-validation-for="CategoryName" class="text-danger"></span>
+            </div>
+
+            <!-- Mô Tả -->
+            <div class="form-group">
+                <label asp-for="Description" class="control-label font-weight-bold"></label>
+                <textarea asp-for="Description" class="form-control" rows="4" placeholder="Nhập mô tả danh mục"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <!-- Nút Tạo Mới -->
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-lg">Tạo Mới Danh Mục</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="mt-4 text-center">
+    <a asp-action="Index" class="btn btn-secondary btn-lg">Trở Lại Danh Sách</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

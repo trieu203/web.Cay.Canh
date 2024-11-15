@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Cay.Canh.Web.HDT.props" />
+</Project>
