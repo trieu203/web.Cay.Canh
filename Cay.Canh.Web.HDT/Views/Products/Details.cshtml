@@ -1,90 +1,88 @@
 ﻿@model Cay.Canh.Web.HDT.Data.Product
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Chi tiết sản phẩm";
+    Layout = "_LayoutShop";
 }
 
-<h1>Details</h1>
+<h2 class="text-center mt-4">Chi tiết sản phẩm</h2>
+<hr />
 
-<div>
-    <h4>Product</h4>
-    <hr />
+<div class="container bg-light p-4 rounded shadow-sm">
+    <h4 class="mb-4">Thông tin sản phẩm</h4>
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ProductName)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ProductName)
+        <!-- Danh mục -->
+        <dt class="col-sm-3">Danh mục</dt>
+        <dd class="col-sm-9">@Model.Category?.CategoryName</dd>
+
+        <!-- Tên sản phẩm -->
+        <dt class="col-sm-3">Tên sản phẩm</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.ProductName)</dd>
+
+        <!-- Giá sản phẩm -->
+        <dt class="col-sm-3">Giá (VND)</dt>
+        <dd class="col-sm-9">@Model.Price.ToString("C0", System.Globalization.CultureInfo.GetCultureInfo("vi-VN"))</dd>
+
+        <!-- Hình ảnh -->
+        <dt class="col-sm-3">Hình ảnh</dt>
+        <dd class="col-sm-9">
+            @if (!string.IsNullOrEmpty(Model.ImageUrl))
+            {
+                <img src="@Model.ImageUrl" alt="Ảnh sản phẩm" class="img-fluid rounded" style="max-width: 200px; max-height: 200px;" />
+            }
+            else
+            {
+                <span>Không có ảnh</span>
+            }
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Price)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Price)
+
+        <!-- Mô tả sản phẩm -->
+        <dt class="col-sm-3">Mô tả</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Description)</dd>
+
+        <!-- Số lượng -->
+        <dt class="col-sm-3">Số lượng</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Quantity)</dd>
+
+        <!-- Kích thước -->
+        <dt class="col-sm-3">Kích thước</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Size)</dd>
+
+        <!-- Chiều cao -->
+        <dt class="col-sm-3">Chiều cao (cm)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Height)</dd>
+
+        <!-- Trạng thái sản phẩm -->
+        <dt class="col-sm-3">Trạng thái</dt>
+        <dd class="col-sm-9">
+            @if (Model.State?.ToLower() == "true")
+            {
+                <span class="badge bg-success">Còn hàng</span>
+            }
+            else
+            {
+                <span class="badge bg-danger">Hết hàng</span>
+            }
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ImageUrl)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ImageUrl)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Description)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Description)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Quantity)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Quantity)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Size)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Size)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Height)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Height)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.State)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.State)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Discount)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Discount)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CreatedDate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CreatedDate)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.UpdatedDate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.UpdatedDate)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Category)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Category.CategoryId)
-        </dd>
+
+        <!-- Giảm giá -->
+        <dt class="col-sm-3">Giảm giá (%)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Discount)</dd>
+
+        <!-- Ngày tạo -->
+        <dt class="col-sm-3">Ngày tạo</dt>
+        <dd class="col-sm-9">@Model.CreatedDate?.ToString("dd/MM/yyyy")</dd>
+
+        <!-- Ngày cập nhật -->
+        <dt class="col-sm-3">Ngày cập nhật</dt>
+        <dd class="col-sm-9">@Model.UpdatedDate?.ToString("dd/MM/yyyy")</dd>
+
+        
     </dl>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.ProductId">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+
+<!-- Nút hành động -->
+<div class="mt-4">
+    <a asp-action="Edit" asp-route-id="@Model?.ProductId" class="btn btn-warning">Chỉnh sửa</a>
+    <a asp-action="Index" class="btn btn-secondary ms-3">Quay lại danh sách</a>
 </div>

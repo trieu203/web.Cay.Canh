@@ -43,7 +43,7 @@ namespace Cay.Canh.Web.HDT.Controllers
         // GET: Products/Create
         public IActionResult Create()
         {
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId");
+            ViewBag.CategoryId = new SelectList(_context.Categories, "CategoryId", "CategoryName");
             return View();
         }
 
@@ -52,15 +52,32 @@ namespace Cay.Canh.Web.HDT.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ProductId,ProductName,Price,ImageUrl,Description,Quantity,Size,Height,State,Discount,CategoryId,CreatedDate,UpdatedDate")] Product product)
+        public async Task<IActionResult> Create([Bind("ProductName,Price,ImageUrl,Description,Quantity,Size,Height,State,Discount,CategoryId")] Product product)
         {
+            if (string.IsNullOrWhiteSpace(product.ProductName))
+            {
+                ModelState.AddModelError("ProductName", "Tên sản phẩm không được để trống.");
+            }
+            if (product.Price <= 0)
+            {
+                ModelState.AddModelError("Price", "Giá sản phẩm phải lớn hơn 0.");
+            }
+            if (product.CategoryId == 0)
+            {
+                ModelState.AddModelError("CategoryId", "Vui lòng chọn danh mục.");
+            }
+
             if (ModelState.IsValid)
             {
+                product.CreatedDate = DateOnly.FromDateTime(DateTime.Now);
+                product.UpdatedDate = DateOnly.FromDateTime(DateTime.Now);
+
                 _context.Add(product);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId", product.CategoryId);
+
+            ViewData["CategoryName"] = new SelectList(_context.Categories, "CategoryId", "CategoryName", product.CategoryId);
             return View(product);
         }
 
@@ -77,7 +94,8 @@ namespace Cay.Canh.Web.HDT.Controllers
             {
                 return NotFound();
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId", product.CategoryId);
+
+            ViewBag.CategoryId = new SelectList(_context.Categories, "CategoryId", "CategoryName", product.CategoryId);
             return View(product);
         }
 
@@ -86,15 +104,36 @@ namespace Cay.Canh.Web.HDT.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ProductId,ProductName,Price,ImageUrl,Description,Quantity,Size,Height,State,Discount,CategoryId,CreatedDate,UpdatedDate")] Product product)
+        public async Task<IActionResult> Edit(int id, [Bind("ProductId,ProductName,Price,ImageUrl,Description,Quantity,Size,Height,State,Discount,CategoryId")] Product updatedProduct)
         {
-            if (id != product.ProductId)
+            if (id != updatedProduct.ProductId)
+            {
+                return NotFound();
+            }
+
+            var product = await _context.Products.FindAsync(id);
+            if (product == null)
             {
                 return NotFound();
             }
 
             if (ModelState.IsValid)
             {
+                // Giữ nguyên các giá trị cũ nếu không nhập hoặc bỏ trống
+                product.ProductName = !string.IsNullOrWhiteSpace(updatedProduct.ProductName) ? updatedProduct.ProductName : product.ProductName;
+                product.Price = updatedProduct.Price > 0 ? updatedProduct.Price : product.Price;
+                product.ImageUrl = !string.IsNullOrWhiteSpace(updatedProduct.ImageUrl) ? updatedProduct.ImageUrl : product.ImageUrl;
+                product.Description = !string.IsNullOrWhiteSpace(updatedProduct.Description) ? updatedProduct.Description : product.Description;
+                product.Quantity = updatedProduct.Quantity != 0 ? updatedProduct.Quantity : product.Quantity;
+                product.Size = !string.IsNullOrWhiteSpace(updatedProduct.Size) ? updatedProduct.Size : product.Size;
+                product.Height = updatedProduct.Height != 0 ? updatedProduct.Height : product.Height;
+                product.State = !string.IsNullOrWhiteSpace(updatedProduct.State) ? updatedProduct.State : product.State;
+                product.Discount = updatedProduct.Discount != 0 ? updatedProduct.Discount : product.Discount;
+                product.CategoryId = updatedProduct.CategoryId != 0 ? updatedProduct.CategoryId : product.CategoryId;
+
+                // Tự động cập nhật ngày chỉnh sửa
+                product.UpdatedDate = DateOnly.FromDateTime(DateTime.Now);
+
                 try
                 {
                     _context.Update(product);
@@ -113,9 +152,11 @@ namespace Cay.Canh.Web.HDT.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId", product.CategoryId);
-            return View(product);
+
+            ViewData["CategoryName"] = new SelectList(_context.Categories, "CategoryId", "CategoryName", updatedProduct.CategoryId);
+            return View(updatedProduct);
         }
+
 
         // GET: Products/Delete/5
         public async Task<IActionResult> Delete(int? id)

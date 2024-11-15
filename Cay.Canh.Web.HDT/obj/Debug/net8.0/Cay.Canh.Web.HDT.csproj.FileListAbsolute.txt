@@ -286,3 +286,4 @@ D:\DO_AN_MON\XAY_DUNG_PHAN_MEM_HDT\src\Cay.Canh.Web.HDT\Cay.Canh.Web.HDT\bin\Deb
 D:\DO_AN_MON\XAY_DUNG_PHAN_MEM_HDT\src\Cay.Canh.Web.HDT\Cay.Canh.Web.HDT\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 D:\DO_AN_MON\XAY_DUNG_PHAN_MEM_HDT\src\Cay.Canh.Web.HDT\Cay.Canh.Web.HDT\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 D:\DO_AN_MON\XAY_DUNG_PHAN_MEM_HDT\src\Cay.Canh.Web.HDT\Cay.Canh.Web.HDT\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\DO_AN_MON\XAY_DUNG_PHAN_MEM_HDT\src\Cay.Canh.Web.HDT\Cay.Canh.Web.HDT\obj\Debug\net8.0\Cay.Canh.Web.HDT.sourcelink.json

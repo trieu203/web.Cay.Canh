@@ -95,6 +95,7 @@ namespace Cay.Canh.Web.HDT.Controllers
         // POST: Categories/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: Categories/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("CategoryId,CategoryName,Description,CreatedDate,UpdatedDate")] Category category)
@@ -108,23 +109,20 @@ namespace Cay.Canh.Web.HDT.Controllers
             {
                 try
                 {
-                    var existingCategory = await _context.Categories.FindAsync(id);
+                    var existingCategory = await _context.Categories.AsNoTracking().FirstOrDefaultAsync(c => c.CategoryId == id);
 
-                    // Kiểm tra và giữ lại giá trị cũ nếu bị bỏ trống
-                    if (string.IsNullOrEmpty(category.CategoryName))
+                    if (existingCategory == null)
                     {
-                        category.CategoryName = existingCategory.CategoryName;
+                        return NotFound();
                     }
 
-                    if (string.IsNullOrEmpty(category.Description))
-                    {
-                        category.Description = existingCategory.Description;
-                    }
+                    // Sao chép dữ liệu từ category vào existingCategory
+                    existingCategory.CategoryName = string.IsNullOrEmpty(category.CategoryName) ? existingCategory.CategoryName : category.CategoryName;
+                    existingCategory.Description = string.IsNullOrEmpty(category.Description) ? existingCategory.Description : category.Description;
+                    existingCategory.UpdatedDate = DateOnly.FromDateTime(DateTime.Now);
 
-                    // Cập nhật lại ngày cập nhật
-                    category.UpdatedDate = DateOnly.FromDateTime(DateTime.Now);  // Chuyển đổi từ DateTime sang DateOnly
-
-                    _context.Update(category);
+                    // Đính kèm thực thể đã tồn tại để cập nhật
+                    _context.Entry(existingCategory).State = EntityState.Modified;
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
@@ -142,6 +140,7 @@ namespace Cay.Canh.Web.HDT.Controllers
             }
             return View(category);
         }
+
 
         // GET: Categories/Delete/5
         public async Task<IActionResult> Delete(int? id)
