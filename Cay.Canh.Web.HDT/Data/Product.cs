@@ -4,7 +4,7 @@ public partial class Product
 {
     public int ProductId { get; set; }
 
-    public string ProductName { get; set; } = null!;
+    public string? ProductName { get; set; }
 
     public decimal Price { get; set; }
 
@@ -14,11 +14,11 @@ public partial class Product
 
     public int Quantity { get; set; }
 
-    public string Size { get; set; } = null!;
+    public string? Size { get; set; }
 
     public decimal? Height { get; set; }
 
-    public string State { get; set; } = null!;
+    public string? State { get; set; }
 
     public int Discount { get; set; }
 

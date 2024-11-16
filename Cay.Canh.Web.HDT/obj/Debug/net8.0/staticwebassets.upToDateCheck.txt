@@ -86,7 +86,7 @@ wwwroot\img\core-img\cf3.png
 wwwroot\img\core-img\cf4.png
 wwwroot\img\core-img\favicon.ico
 wwwroot\img\core-img\leaf.png
-wwwroot\img\core-img\logo.png
+wwwroot\img\core-img\logo.jpg
 wwwroot\img\core-img\pot.png
 wwwroot\img\core-img\s1.png
 wwwroot\img\core-img\s2.png

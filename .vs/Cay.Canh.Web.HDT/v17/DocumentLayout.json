@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B662BA-5A45-4A9D-AB7A-AD367347B6ED}|Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT.csproj|d:\\do_an_mon\\xay_dung_phan_mem_hdt\\src\\cay.canh.web.hdt\\cay.canh.web.hdt\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B662BA-5A45-4A9D-AB7A-AD367347B6ED}|Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT.csproj|solutionrelative:cay.canh.web.hdt\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Header.cshtml",
+              "DocumentMoniker": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\Views\\Shared\\_Header.cshtml",
+              "RelativeDocumentMoniker": "Cay.Canh.Web.HDT\\Views\\Shared\\_Header.cshtml",
+              "ToolTip": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\Views\\Shared\\_Header.cshtml",
+              "RelativeToolTip": "Cay.Canh.Web.HDT\\Views\\Shared\\_Header.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-16T03:42:16.304Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

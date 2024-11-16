@@ -91,20 +91,6 @@
                 <span asp-validation-for="Discount" class="text-danger"></span>
             </div>
 
-            
-
-            <!-- Ngày tạo -->
-            <div class="form-group mb-3">
-                <label asp-for="CreatedDate" class="form-label">Ngày tạo</label>
-                <input asp-for="CreatedDate" class="form-control" readonly />
-            </div>
-
-            <!-- Ngày cập nhật -->
-            <div class="form-group mb-3">
-                <label asp-for="UpdatedDate" class="form-label">Ngày cập nhật</label>
-                <input asp-for="UpdatedDate" class="form-control" readonly value="@DateOnly.FromDateTime(DateTime.Now).ToString()" />
-            </div>
-
             <!-- Nút lưu -->
             <div class="form-group text-center mt-4">
                 <button type="submit" class="btn btn-primary">Lưu thay đổi</button>

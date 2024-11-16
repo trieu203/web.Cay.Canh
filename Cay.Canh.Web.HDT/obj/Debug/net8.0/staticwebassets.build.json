@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "T7NzUA0Negw2BKt/TMnTHETrOGJo3aTatu1MeHpRsto=",
+  "Hash": "U0GH91ATSPuovn16ynxhrGlhw+ZeLQ6WujhCY5usuKY=",
   "Source": "Cay.Canh.Web.HDT",
   "BasePath": "_content/Cay.Canh.Web.HDT",
   "Mode": "Default",
@@ -1907,12 +1907,12 @@
       "OriginalItemSpec": "wwwroot\\img\\core-img\\leaf.png"
     },
     {
-      "Identity": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\core-img\\logo.png",
+      "Identity": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\core-img\\logo.jpg",
       "SourceId": "Cay.Canh.Web.HDT",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\",
       "BasePath": "_content/Cay.Canh.Web.HDT",
-      "RelativePath": "img/core-img/logo#[.{fingerprint}]?.png",
+      "RelativePath": "img/core-img/logo#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1921,11 +1921,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "4j6j8bdo0n",
-      "Integrity": "0IsVh6qG6w4o1tYzgU1gREym/t2KvOIz33g5sZaBfzM=",
+      "Fingerprint": "grihbe6o8o",
+      "Integrity": "PLyjP7JANpErbOlf7Iks4aQ3odF/cYUvutkHExEL/SY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\core-img\\logo.png"
+      "OriginalItemSpec": "wwwroot\\img\\core-img\\logo.jpg"
     },
     {
       "Identity": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\core-img\\pot.png",
@@ -10864,8 +10864,8 @@
       ]
     },
     {
-      "Route": "img/core-img/logo.4j6j8bdo0n.png",
-      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\core-img\\logo.png",
+      "Route": "img/core-img/logo.grihbe6o8o.jpg",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\core-img\\logo.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10874,19 +10874,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "794"
+          "Value": "4335"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"0IsVh6qG6w4o1tYzgU1gREym/t2KvOIz33g5sZaBfzM=\""
+          "Value": "\"PLyjP7JANpErbOlf7Iks4aQ3odF/cYUvutkHExEL/SY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 Nov 2018 08:45:48 GMT"
+          "Value": "Sat, 16 Nov 2024 03:52:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10896,21 +10896,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4j6j8bdo0n"
+          "Value": "grihbe6o8o"
         },
         {
           "Name": "label",
-          "Value": "img/core-img/logo.png"
+          "Value": "img/core-img/logo.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0IsVh6qG6w4o1tYzgU1gREym/t2KvOIz33g5sZaBfzM="
+          "Value": "sha256-PLyjP7JANpErbOlf7Iks4aQ3odF/cYUvutkHExEL/SY="
         }
       ]
     },
     {
-      "Route": "img/core-img/logo.png",
-      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\core-img\\logo.png",
+      "Route": "img/core-img/logo.jpg",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\core-img\\logo.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10919,19 +10919,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "794"
+          "Value": "4335"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"0IsVh6qG6w4o1tYzgU1gREym/t2KvOIz33g5sZaBfzM=\""
+          "Value": "\"PLyjP7JANpErbOlf7Iks4aQ3odF/cYUvutkHExEL/SY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 Nov 2018 08:45:48 GMT"
+          "Value": "Sat, 16 Nov 2024 03:52:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10941,7 +10941,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0IsVh6qG6w4o1tYzgU1gREym/t2KvOIz33g5sZaBfzM="
+          "Value": "sha256-PLyjP7JANpErbOlf7Iks4aQ3odF/cYUvutkHExEL/SY="
         }
       ]
     },
