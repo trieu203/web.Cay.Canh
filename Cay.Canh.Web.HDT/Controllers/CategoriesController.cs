@@ -109,21 +109,31 @@ namespace Cay.Canh.Web.HDT.Controllers
             {
                 try
                 {
-                    var existingCategory = await _context.Categories.AsNoTracking().FirstOrDefaultAsync(c => c.CategoryId == id);
+                    // Lấy dữ liệu của Category hiện tại từ database
+                    var existingCategory = await _context.Categories.FirstOrDefaultAsync(c => c.CategoryId == id);
 
                     if (existingCategory == null)
                     {
                         return NotFound();
                     }
 
-                    // Sao chép dữ liệu từ category vào existingCategory
-                    existingCategory.CategoryName = string.IsNullOrEmpty(category.CategoryName) ? existingCategory.CategoryName : category.CategoryName;
-                    existingCategory.Description = string.IsNullOrEmpty(category.Description) ? existingCategory.Description : category.Description;
+                    // Kiểm tra nếu CategoryName hoặc Description bị bỏ trống thì giữ nguyên giá trị cũ
+                    existingCategory.CategoryName = string.IsNullOrWhiteSpace(category.CategoryName)
+                        ? existingCategory.CategoryName
+                        : category.CategoryName;
+
+                    existingCategory.Description = string.IsNullOrWhiteSpace(category.Description)
+                        ? existingCategory.Description
+                        : category.Description;
+
+                    // Cập nhật ngày cập nhật
                     existingCategory.UpdatedDate = DateOnly.FromDateTime(DateTime.Now);
 
-                    // Đính kèm thực thể đã tồn tại để cập nhật
+                    // Đính kèm thực thể đã cập nhật để lưu thay đổi
                     _context.Entry(existingCategory).State = EntityState.Modified;
                     await _context.SaveChangesAsync();
+
+                    return RedirectToAction(nameof(Index));
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -136,10 +146,10 @@ namespace Cay.Canh.Web.HDT.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
             }
             return View(category);
         }
+
 
 
         // GET: Categories/Delete/5
