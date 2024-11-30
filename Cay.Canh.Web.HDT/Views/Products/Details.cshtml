@@ -1,88 +1,86 @@
-﻿@model Cay.Canh.Web.HDT.Data.Product
+﻿@model Cay.Canh.Web.HDT.ViewModel.ProductVMDT
 
 @{
     ViewData["Title"] = "Chi tiết sản phẩm";
     Layout = "_LayoutShop";
 }
 
-<h2 class="text-center mt-4">Chi tiết sản phẩm</h2>
-<hr />
+<!-- ##### Single Product Details Area Start ##### -->
+<section class="single_product_details_area mb-50">
+    <div class="produts-details--content mb-50">
+        <div class="container">
+            <div class="row justify-content-between">
 
-<div class="container bg-light p-4 rounded shadow-sm">
-    <h4 class="mb-4">Thông tin sản phẩm</h4>
-    <dl class="row">
-        <!-- Danh mục -->
-        <dt class="col-sm-3">Danh mục</dt>
-        <dd class="col-sm-9">@Model.Category?.CategoryName</dd>
+                <div class="col-12 col-md-6 col-lg-5">
+                    <div class="single_product_thumb">
+                        <div id="product_details_slider" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a class="product-img" href="@Url.Content("~/img/Products/" + Model.ImageUrl + ".png")" title="@Model.ProductName">
+                                        <img class="d-block w-100" src="@Url.Content("~/img/Products/" + Model.ImageUrl + ".png")" alt="1">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-        <!-- Tên sản phẩm -->
-        <dt class="col-sm-3">Tên sản phẩm</dt>
-        <dd class="col-sm-9">@Html.DisplayFor(model => model.ProductName)</dd>
+                <div class="col-12 col-md-6">
+                    <div class="single_product_desc">
+                        <h4 class="title">@Model.ProductName</h4>
+                        <h4 class="price">@Model.Price.ToString("N0") VND</h4>
+                        <div class="short_overview">
+                            <h5>@Model.ProductName: là loại cây được ưa chuộn tại thị trường Việt Nam và mang lại nhiều ý nghĩa trong phong thủy và tài lộc. </h5>
+                        </div>
+                        <div class="products--meta">
+                            <p><span>Chiều Cao:</span> <span>@Model.Height.ToString().Split('.')[0] cm</span></p>
+                            <p><span>Kích thước:</span> <span> @Model.Size</span></p>
+                            <p><span>Tình trạng cây:</span> @(Model.State == "true" ? "Còn hàng" : "Hết hàng")</p>
+                            <p></p>
+                        </div>
 
-        <!-- Giá sản phẩm -->
-        <dt class="col-sm-3">Giá (VND)</dt>
-        <dd class="col-sm-9">@Model.Price.ToString("C0", System.Globalization.CultureInfo.GetCultureInfo("vi-VN"))</dd>
+                        <!-- Giỏ hàng -->
+                        <div class="cart--area d-flex flex-wrap align-items-center">
+                            <form class="cart clearfix d-flex align-items-center" method="post">
+                                <div class="quantity">
+                                    <span class="qty-minus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty ) &amp;&amp; qty &gt; 1 ) effect.value--;return false;"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                    <input type="number" class="qty-text" id="qty" step="1" min="1" max="12" name="quantity" value="1">
+                                    <span class="qty-plus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty )) effect.value++;return false;"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                </div>
+                                <button type="submit" name="addtocart" value="5" class="btn alazea-btn ml-15">Thêm vào giỏ hàng</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
 
-        <!-- Hình ảnh -->
-        <dt class="col-sm-3">Hình ảnh</dt>
-        <dd class="col-sm-9">
-            @if (!string.IsNullOrEmpty(Model.ImageUrl))
-            {
-                <img src="@Model.ImageUrl" alt="Ảnh sản phẩm" class="img-fluid rounded" style="max-width: 200px; max-height: 200px;" />
-            }
-            else
-            {
-                <span>Không có ảnh</span>
-            }
-        </dd>
+            </div>
+        </div>
+    </div>
+    @* Mô tả *@
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="product_details_tab clearfix">
+                    <!-- Tabs -->
+                    <ul class="nav nav-tabs" role="tablist" id="product-details-tab">
+                        <li class="nav-item">
+                            <a  class="nav-link active" data-toggle="tab" role="tab">Mô tả</a>
+                        </li>
+                    </ul>
+                    <!-- Tab Content -->
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade show active" id="description">
+                            <div class="description_area">
+                                <p>@Model.Description</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ##### Single Product Details Area End ##### -->
+<!-- ##### Related Product Area Start ##### -->
 
-        <!-- Mô tả sản phẩm -->
-        <dt class="col-sm-3">Mô tả</dt>
-        <dd class="col-sm-9">@Html.DisplayFor(model => model.Description)</dd>
-
-        <!-- Số lượng -->
-        <dt class="col-sm-3">Số lượng</dt>
-        <dd class="col-sm-9">@Html.DisplayFor(model => model.Quantity)</dd>
-
-        <!-- Kích thước -->
-        <dt class="col-sm-3">Kích thước</dt>
-        <dd class="col-sm-9">@Html.DisplayFor(model => model.Size)</dd>
-
-        <!-- Chiều cao -->
-        <dt class="col-sm-3">Chiều cao (cm)</dt>
-        <dd class="col-sm-9">@Html.DisplayFor(model => model.Height)</dd>
-
-        <!-- Trạng thái sản phẩm -->
-        <dt class="col-sm-3">Trạng thái</dt>
-        <dd class="col-sm-9">
-            @if (Model.State?.ToLower() == "true")
-            {
-                <span class="badge bg-success">Còn hàng</span>
-            }
-            else
-            {
-                <span class="badge bg-danger">Hết hàng</span>
-            }
-        </dd>
-
-        <!-- Giảm giá -->
-        <dt class="col-sm-3">Giảm giá (%)</dt>
-        <dd class="col-sm-9">@Html.DisplayFor(model => model.Discount)</dd>
-
-        <!-- Ngày tạo -->
-        <dt class="col-sm-3">Ngày tạo</dt>
-        <dd class="col-sm-9">@Model.CreatedDate?.ToString("dd/MM/yyyy")</dd>
-
-        <!-- Ngày cập nhật -->
-        <dt class="col-sm-3">Ngày cập nhật</dt>
-        <dd class="col-sm-9">@Model.UpdatedDate?.ToString("dd/MM/yyyy")</dd>
-
-        
-    </dl>
-</div>
-
-<!-- Nút hành động -->
-<div class="mt-4">
-    <a asp-action="Edit" asp-route-id="@Model?.ProductId" class="btn btn-warning">Chỉnh sửa</a>
-    <a asp-action="Index" class="btn btn-secondary ms-3">Quay lại danh sách</a>
-</div>
+<!-- ##### Related Product Area End ##### -->

@@ -57,7 +57,7 @@
             <!-- Single Hero Post -->
             <div class="single-hero-post bg-overlay">
                 <!-- Post Image -->
-                <div class="slide-img bg-img" style="background-image: url(img/bg-img/2.jpg);"></div>
+                <div class="slide-img bg-img" style="background-image: url(img/bg-img/28.jpg);"></div>
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12">
@@ -285,20 +285,22 @@
                     <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="100ms">
                         <!-- Product Image -->
                         <div class="product-img">
-                            <a href="shop-details.html"><img src="img/bg-img/9.jpg" alt=""></a>
+                            <a asp-controller="Products" asp-action="Details" asp-route-id="1">
+                                <img src="img/bg-img/9.jpg" alt="Cactus Flower">
+                            </a>
                             <!-- Product Tag -->
                             <div class="product-tag">
                                 <a href="#">Hot</a>
                             </div>
                             <div class="product-meta d-flex">
-                                <a href="#" class="wishlist-btn"><i class="icon_heart_alt"></i></a>
-                                <a href="cart.html" class="add-to-cart-btn">Add to cart</a>
+                                <a asp-controller="Products" asp-action="Index" class="wishlist-btn"><i class="icon_heart_alt"></i></a>
+                                <a href="#" class="add-to-cart-btn">Add to cart</a>
                                 <a href="#" class="compare-btn"><i class="arrow_left-right_alt"></i></a>
                             </div>
                         </div>
                         <!-- Product Info -->
                         <div class="product-info mt-15 text-center">
-                            <a href="shop-details.html">
+                            <a asp-controller="Products" asp-action="Details" asp-route-id="1">
                                 <p>Cactus Flower</p>
                             </a>
                             <h6>$10.99</h6>
@@ -306,63 +308,72 @@
                     </div>
                 </div>
 
-                <!-- Single Product Area -->
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="200ms">
-                        <!-- Product Image -->
-                        <div class="product-img">
-                            <a href="shop-details.html"><img src="img/bg-img/10.jpg" alt=""></a>
-                            <div class="product-meta d-flex">
-                                <a href="#" class="wishlist-btn"><i class="icon_heart_alt"></i></a>
-                                <a href="cart.html" class="add-to-cart-btn">Add to cart</a>
-                                <a href="#" class="compare-btn"><i class="arrow_left-right_alt"></i></a>
-                            </div>
-                        </div>
-                        <!-- Product Info -->
-                        <div class="product-info mt-15 text-center">
-                            <a href="shop-details.html">
-                                <p>Cactus Flower</p>
-                            </a>
-                            <h6>$10.99</h6>
-                        </div>
-                    </div>
-                </div>
 
                 <!-- Single Product Area -->
                 <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="100ms">
                         <!-- Product Image -->
                         <div class="product-img">
-                            <a href="shop-details.html"><img src="img/bg-img/11.jpg" alt=""></a>
-                            <div class="product-meta d-flex">
-                                <a href="#" class="wishlist-btn"><i class="icon_heart_alt"></i></a>
-                                <a href="cart.html" class="add-to-cart-btn">Add to cart</a>
-                                <a href="#" class="compare-btn"><i class="arrow_left-right_alt"></i></a>
-                            </div>
-                        </div>
-                        <!-- Product Info -->
-                        <div class="product-info mt-15 text-center">
-                            <a href="shop-details.html">
-                                <p>Cactus Flower</p>
-                            </a>
-                            <h6>$10.99</h6>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Product Area -->
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="400ms">
-                        <!-- Product Image -->
-                        <div class="product-img">
-                            <a href="shop-details.html"><img src="img/bg-img/12.jpg" alt=""></a>
+                            <a asp-controller="Products" asp-action="Details"><img src="img/bg-img/9.jpg" alt=""></a>
                             <!-- Product Tag -->
-                            <div class="product-tag sale-tag">
+                            <div class="product-tag">
                                 <a href="#">Hot</a>
                             </div>
                             <div class="product-meta d-flex">
-                                <a href="#" class="wishlist-btn"><i class="icon_heart_alt"></i></a>
-                                <a href="cart.html" class="add-to-cart-btn">Add to cart</a>
+                                <a asp-controller="Products" asp-action="Index" class="wishlist-btn"><i class="icon_heart_alt"></i></a>
+                                <a href="#" class="add-to-cart-btn">Add to cart</a>
+                                <a href="#" class="compare-btn"><i class="arrow_left-right_alt"></i></a>
+                            </div>
+                        </div>
+                        <!-- Product Info -->
+                        <div class="product-info mt-15 text-center">
+                            <a href="shop-details.html">
+                                <p>Cactus Flower</p>
+                            </a>
+                            <h6>$10.99</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Product Area -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="100ms">
+                        <!-- Product Image -->
+                        <div class="product-img">
+                            <a asp-controller="Products" asp-action="Details"><img src="img/bg-img/9.jpg" alt=""></a>
+                            <!-- Product Tag -->
+                            <div class="product-tag">
+                                <a href="#">Hot</a>
+                            </div>
+                            <div class="product-meta d-flex">
+                                <a asp-controller="Products" asp-action="Index" class="wishlist-btn"><i class="icon_heart_alt"></i></a>
+                                <a href="#" class="add-to-cart-btn">Add to cart</a>
+                                <a href="#" class="compare-btn"><i class="arrow_left-right_alt"></i></a>
+                            </div>
+                        </div>
+                        <!-- Product Info -->
+                        <div class="product-info mt-15 text-center">
+                            <a href="shop-details.html">
+                                <p>Cactus Flower</p>
+                            </a>
+                            <h6>$10.99</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Product Area -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="100ms">
+                        <!-- Product Image -->
+                        <div class="product-img">
+                            <a asp-controller="Products" asp-action="Details"><img src="img/bg-img/9.jpg" alt=""></a>
+                            <!-- Product Tag -->
+                            <div class="product-tag">
+                                <a href="#">Hot</a>
+                            </div>
+                            <div class="product-meta d-flex">
+                                <a asp-controller="Products" asp-action="Index" class="wishlist-btn"><i class="icon_heart_alt"></i></a>
+                                <a href="#" class="add-to-cart-btn">Add to cart</a>
                                 <a href="#" class="compare-btn"><i class="arrow_left-right_alt"></i></a>
                             </div>
                         </div>
@@ -377,7 +388,7 @@
                 </div>
 
                 <div class="col-12 text-center">
-                    <a href="#" class="btn alazea-btn">View All</a>
+                    <a asp-controller="Products" asp-action="Index" class="btn alazea-btn">View All</a>
                 </div>
 
             </div>

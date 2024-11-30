@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Cay.Canh.Web.HDT.ViewModel;
 
 namespace Cay.Canh.Web.HDT.Controllers
 {
@@ -15,11 +16,40 @@ namespace Cay.Canh.Web.HDT.Controllers
         }
 
         // GET: Products
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? Category, int page = 1, int pageSize = 9)
         {
-            var webCayCanhContext = _context.Products.Include(p => p.Category);
-            return View(await webCayCanhContext.ToListAsync());
+            var productQuery = _context.Products.AsQueryable();
+
+            // Nếu có Category, lọc theo CategoryId
+            if (Category.HasValue)
+            {
+                productQuery = productQuery.Where(p => p.CategoryId == Category.Value);
+            }
+
+            // Lấy tổng số sản phẩm
+            int totalItems = await productQuery.CountAsync();
+
+            // Lấy danh sách sản phẩm với phân trang
+            var products = await productQuery
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .Select(p => new ProductVM
+                {
+                    ProductId = p.ProductId,
+                    ProductName = p.ProductName,
+                    Price = p.Price,
+                    Discount = p.Discount,
+                    ImageUrl = p.ImageUrl
+                })
+                .ToListAsync();
+
+            // Tạo đối tượng PaginatedList với các tham số: danh sách sản phẩm, tổng số sản phẩm, trang hiện tại, số sản phẩm trên mỗi trang
+            var paginatedResult = new PaginatedList<ProductVM>(products, totalItems, page, pageSize);
+
+            // Trả về đối tượng PaginatedList cho view
+            return View(paginatedResult);
         }
+
 
         // GET: Products/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -29,16 +59,67 @@ namespace Cay.Canh.Web.HDT.Controllers
                 return NotFound();
             }
 
-            var product = await _context.Products
+            var p = await _context.Products
                 .Include(p => p.Category)
-                .FirstOrDefaultAsync(m => m.ProductId == id);
-            if (product == null)
+                .Include(p => p.CartItems)
+                .SingleOrDefaultAsync(m => m.ProductId == id);
+
+            if (p == null)
             {
                 return NotFound();
             }
 
-            return View(product);
+            var result = new ProductVMDT
+            {
+                ProductId = p.ProductId,
+                ProductName = p.ProductName,
+                Description = p.Description,
+                Price = p.Price,
+                Height = p.Height,
+                Quantity = p.Quantity,
+                Discount = p.Discount,
+                ImageUrl = p.ImageUrl,
+                State = p.State,
+                Size = p.Size,
+
+                CartId = p.CartItems.FirstOrDefault()?.CartId ?? 0,
+            };
+
+            return View(result);
         }
+
+        public async Task<IActionResult> Search(string? query, int page = 1, int pageSize = 9)
+        {
+            // Khởi tạo truy vấn cơ bản
+            var productQuery = _context.Products.AsQueryable();
+
+            // Nếu có từ khóa tìm kiếm, áp dụng lọc theo tên sản phẩm
+            if (query != null)
+            {
+                productQuery = productQuery.Where(p => p.ProductName.Contains(query));
+            }
+
+            // Tính toán tổng số sản phẩm và phân trang
+            int totalItems = await productQuery.CountAsync();
+
+            var products = await productQuery
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .Select(p => new ProductVM
+                {
+                    ProductId = p.ProductId,
+                    ProductName = p.ProductName,
+                    Price = p.Price,
+                    Discount = p.Discount,
+                    ImageUrl = p.ImageUrl,
+                    Description = p.Description,
+                })
+                .ToListAsync();
+
+            // Trả về kết quả tìm kiếm
+            return View(products);
+        }
+
 
         // GET: Products/Create
         public IActionResult Create()

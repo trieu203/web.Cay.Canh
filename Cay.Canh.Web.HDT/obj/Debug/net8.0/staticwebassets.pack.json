@@ -97,6 +97,70 @@
       "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
     },
     {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\Cau_TieuTram.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Cau_TieuTram.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\DaBupDo.png",
+      "PackagePath": "staticwebassets\\img\\Products\\DaBupDo.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\DuongXiPhuong.png",
+      "PackagePath": "staticwebassets\\img\\Products\\DuongXiPhuong.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\LanHoDiep.png",
+      "PackagePath": "staticwebassets\\img\\Products\\LanHoDiep.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\LanQuanTu.png",
+      "PackagePath": "staticwebassets\\img\\Products\\LanQuanTu.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\TB_CaySi.png",
+      "PackagePath": "staticwebassets\\img\\Products\\TB_CaySi.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\TrauBaLaXe.png",
+      "PackagePath": "staticwebassets\\img\\Products\\TrauBaLaXe.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\TrietMocLan.png",
+      "PackagePath": "staticwebassets\\img\\Products\\TrietMocLan.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\XuongRongSaoBien.png",
+      "PackagePath": "staticwebassets\\img\\Products\\XuongRongSaoBien.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\bonsai_MaiDoQuyen.png",
+      "PackagePath": "staticwebassets\\img\\Products\\bonsai_MaiDoQuyen.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\bonsai_SamNui.png",
+      "PackagePath": "staticwebassets\\img\\Products\\bonsai_SamNui.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\bonsai_Thong.png",
+      "PackagePath": "staticwebassets\\img\\Products\\bonsai_Thong.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\cayluoiho.png",
+      "PackagePath": "staticwebassets\\img\\Products\\cayluoiho.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\chau_caytrangnguyen.png",
+      "PackagePath": "staticwebassets\\img\\Products\\chau_caytrangnguyen.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\senda.png",
+      "PackagePath": "staticwebassets\\img\\Products\\senda.png"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\trangtrihonhop.png",
+      "PackagePath": "staticwebassets\\img\\Products\\trangtrihonhop.png"
+    },
+    {
       "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\bg-img\\1.jpg",
       "PackagePath": "staticwebassets\\img\\bg-img\\1.jpg"
     },
@@ -647,6 +711,14 @@
     {
       "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\scss\\style.scss",
       "PackagePath": "staticwebassets\\scss\\style.scss"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\shop-details.html",
+      "PackagePath": "staticwebassets\\shop-details.html"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\shop.html",
+      "PackagePath": "staticwebassets\\shop.html"
     },
     {
       "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\style.css",

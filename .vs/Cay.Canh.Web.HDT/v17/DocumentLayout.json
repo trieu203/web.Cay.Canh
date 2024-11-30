@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9B662BA-5A45-4A9D-AB7A-AD367347B6ED}|Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT.csproj|d:\\do_an_mon\\xay_dung_phan_mem_hdt\\src\\cay.canh.web.hdt\\cay.canh.web.hdt\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A9B662BA-5A45-4A9D-AB7A-AD367347B6ED}|Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT.csproj|solutionrelative:cay.canh.web.hdt\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A9B662BA-5A45-4A9D-AB7A-AD367347B6ED}|Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT.csproj|d:\\do_an_mon\\xay_dung_phan_mem_hdt\\src\\cay.canh.web.hdt\\cay.canh.web.hdt\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B662BA-5A45-4A9D-AB7A-AD367347B6ED}|Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT.csproj|solutionrelative:cay.canh.web.hdt\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B662BA-5A45-4A9D-AB7A-AD367347B6ED}|Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT.csproj|d:\\do_an_mon\\xay_dung_phan_mem_hdt\\src\\cay.canh.web.hdt\\cay.canh.web.hdt\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9B662BA-5A45-4A9D-AB7A-AD367347B6ED}|Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT.csproj|solutionrelative:cay.canh.web.hdt\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B662BA-5A45-4A9D-AB7A-AD367347B6ED}|Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT.csproj|d:\\do_an_mon\\xay_dung_phan_mem_hdt\\src\\cay.canh.web.hdt\\cay.canh.web.hdt\\viewmodel\\productvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B662BA-5A45-4A9D-AB7A-AD367347B6ED}|Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT.csproj|solutionrelative:cay.canh.web.hdt\\viewmodel\\productvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Header.cshtml",
-              "DocumentMoniker": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\Views\\Shared\\_Header.cshtml",
-              "RelativeDocumentMoniker": "Cay.Canh.Web.HDT\\Views\\Shared\\_Header.cshtml",
-              "ToolTip": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\Views\\Shared\\_Header.cshtml",
-              "RelativeToolTip": "Cay.Canh.Web.HDT\\Views\\Shared\\_Header.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAADsAAAAaAAAAAAAAAA==",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "Cay.Canh.Web.HDT\\Views\\Products\\Details.cshtml",
+              "ToolTip": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "Cay.Canh.Web.HDT\\Views\\Products\\Details.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-16T03:42:16.304Z",
+              "WhenOpened": "2024-11-30T15:45:15.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductVM.cs",
+              "DocumentMoniker": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\ViewModel\\ProductVM.cs",
+              "RelativeDocumentMoniker": "Cay.Canh.Web.HDT\\ViewModel\\ProductVM.cs",
+              "ToolTip": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\ViewModel\\ProductVM.cs",
+              "RelativeToolTip": "Cay.Canh.Web.HDT\\ViewModel\\ProductVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T14:36:06.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "Cay.Canh.Web.HDT\\Views\\Products\\Index.cshtml",
+              "ToolTip": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "Cay.Canh.Web.HDT\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEcAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T14:14:16.864Z",
               "EditorCaption": ""
             }
           ]

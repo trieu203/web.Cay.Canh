@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "U0GH91ATSPuovn16ynxhrGlhw+ZeLQ6WujhCY5usuKY=",
+  "Hash": "1A6keyMYPYQN5z3pEKgqvcaVY8//7bDd3BpK0PCba+g=",
   "Source": "Cay.Canh.Web.HDT",
   "BasePath": "_content/Cay.Canh.Web.HDT",
   "Mode": "Default",
@@ -2012,6 +2012,342 @@
       "OriginalItemSpec": "wwwroot\\img\\core-img\\s3.png"
     },
     {
+      "Identity": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\bonsai_MaiDoQuyen.png",
+      "SourceId": "Cay.Canh.Web.HDT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\",
+      "BasePath": "_content/Cay.Canh.Web.HDT",
+      "RelativePath": "img/Products/bonsai_MaiDoQuyen#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ele2dwksgv",
+      "Integrity": "nlzEKf4qMMDvf2o4JwPtycJAavVjvwLpCYEieYzY4Ac=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Products\\bonsai_MaiDoQuyen.png"
+    },
+    {
+      "Identity": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\bonsai_SamNui.png",
+      "SourceId": "Cay.Canh.Web.HDT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\",
+      "BasePath": "_content/Cay.Canh.Web.HDT",
+      "RelativePath": "img/Products/bonsai_SamNui#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u56zcqytnk",
+      "Integrity": "8p3FWfhKA9lRfU8ymYKbLdzrkvcXqIp/AXNLu1d3iMY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Products\\bonsai_SamNui.png"
+    },
+    {
+      "Identity": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\bonsai_Thong.png",
+      "SourceId": "Cay.Canh.Web.HDT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\",
+      "BasePath": "_content/Cay.Canh.Web.HDT",
+      "RelativePath": "img/Products/bonsai_Thong#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o6rro05ugp",
+      "Integrity": "YKqlUDSeLGYAsNRZYSQI0oLpoj4XttQPtkOg5WjsKk0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Products\\bonsai_Thong.png"
+    },
+    {
+      "Identity": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\Cau_TieuTram.png",
+      "SourceId": "Cay.Canh.Web.HDT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\",
+      "BasePath": "_content/Cay.Canh.Web.HDT",
+      "RelativePath": "img/Products/Cau_TieuTram#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4d6dm3nw6q",
+      "Integrity": "iGzS24DQZ9zGO73rlSK+Lcn6P0Y/3EWgxRW7NwnrVM4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Products\\Cau_TieuTram.png"
+    },
+    {
+      "Identity": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\cayluoiho.png",
+      "SourceId": "Cay.Canh.Web.HDT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\",
+      "BasePath": "_content/Cay.Canh.Web.HDT",
+      "RelativePath": "img/Products/cayluoiho#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eudn4sk54m",
+      "Integrity": "1plx3RZq914X10wyhe5YciydrPpsn+iFvmk0Wgzn6fY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Products\\cayluoiho.png"
+    },
+    {
+      "Identity": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\chau_caytrangnguyen.png",
+      "SourceId": "Cay.Canh.Web.HDT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\",
+      "BasePath": "_content/Cay.Canh.Web.HDT",
+      "RelativePath": "img/Products/chau_caytrangnguyen#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gzwzxfnnp1",
+      "Integrity": "vB6mO+MWhKc/J51RHT95RsmQNtnwnOLBLzgOVREBWtk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Products\\chau_caytrangnguyen.png"
+    },
+    {
+      "Identity": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\DaBupDo.png",
+      "SourceId": "Cay.Canh.Web.HDT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\",
+      "BasePath": "_content/Cay.Canh.Web.HDT",
+      "RelativePath": "img/Products/DaBupDo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xdnt6x4hd1",
+      "Integrity": "W3oS1ZGrRLXq0Sx57gjS2i/tKTsUzM1/18DGu5l6Jk4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Products\\DaBupDo.png"
+    },
+    {
+      "Identity": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\DuongXiPhuong.png",
+      "SourceId": "Cay.Canh.Web.HDT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\",
+      "BasePath": "_content/Cay.Canh.Web.HDT",
+      "RelativePath": "img/Products/DuongXiPhuong#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1eqd9t5b5a",
+      "Integrity": "2RMKY+TS0IQM7hTrFAIlkeTxnYYt8akSrm5JkI3B1ZY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Products\\DuongXiPhuong.png"
+    },
+    {
+      "Identity": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\LanHoDiep.png",
+      "SourceId": "Cay.Canh.Web.HDT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\",
+      "BasePath": "_content/Cay.Canh.Web.HDT",
+      "RelativePath": "img/Products/LanHoDiep#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8b2etd9iib",
+      "Integrity": "NKQBIVTweFw4Ajk3TKTzozZ4ck0GJdKZOHO7fLegqvg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Products\\LanHoDiep.png"
+    },
+    {
+      "Identity": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\LanQuanTu.png",
+      "SourceId": "Cay.Canh.Web.HDT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\",
+      "BasePath": "_content/Cay.Canh.Web.HDT",
+      "RelativePath": "img/Products/LanQuanTu#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "miery1qnwz",
+      "Integrity": "PugAjnduc1Md2VVfFNgnnb4hUNN5oxsP5VjUYTYLdAI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Products\\LanQuanTu.png"
+    },
+    {
+      "Identity": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\senda.png",
+      "SourceId": "Cay.Canh.Web.HDT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\",
+      "BasePath": "_content/Cay.Canh.Web.HDT",
+      "RelativePath": "img/Products/senda#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "85e5vfox34",
+      "Integrity": "JE7/QVRsExbZCvRUuNIwWE6ww6Sl0CxWS8HD2g+K/ac=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Products\\senda.png"
+    },
+    {
+      "Identity": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\TB_CaySi.png",
+      "SourceId": "Cay.Canh.Web.HDT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\",
+      "BasePath": "_content/Cay.Canh.Web.HDT",
+      "RelativePath": "img/Products/TB_CaySi#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mu3yrt9l9d",
+      "Integrity": "/qZw+taVoiRT//ycn1tMC8wjSDvaxutAIuTecFunYnw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Products\\TB_CaySi.png"
+    },
+    {
+      "Identity": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\trangtrihonhop.png",
+      "SourceId": "Cay.Canh.Web.HDT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\",
+      "BasePath": "_content/Cay.Canh.Web.HDT",
+      "RelativePath": "img/Products/trangtrihonhop#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fhq2c2jlqj",
+      "Integrity": "kzYKJV6J+Wxz1/poa+VTU9u31wgr2+NbKKrWz4keD08=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Products\\trangtrihonhop.png"
+    },
+    {
+      "Identity": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\TrauBaLaXe.png",
+      "SourceId": "Cay.Canh.Web.HDT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\",
+      "BasePath": "_content/Cay.Canh.Web.HDT",
+      "RelativePath": "img/Products/TrauBaLaXe#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o5hlopkv5p",
+      "Integrity": "5Jlf7CbqrEPOxen7sFGLGvr5s/RowdDmBBln3kSj7lU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Products\\TrauBaLaXe.png"
+    },
+    {
+      "Identity": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\TrietMocLan.png",
+      "SourceId": "Cay.Canh.Web.HDT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\",
+      "BasePath": "_content/Cay.Canh.Web.HDT",
+      "RelativePath": "img/Products/TrietMocLan#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8wovqn7vxw",
+      "Integrity": "yNV5NvK1sRAKL9UQBVuqb2Rm4VIjAUU4Uiclk48/0Bo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Products\\TrietMocLan.png"
+    },
+    {
+      "Identity": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\XuongRongSaoBien.png",
+      "SourceId": "Cay.Canh.Web.HDT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\",
+      "BasePath": "_content/Cay.Canh.Web.HDT",
+      "RelativePath": "img/Products/XuongRongSaoBien#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jsiwt3g4tx",
+      "Integrity": "I1BpSCcSuyV86aJ8jPtuo18boEPSPYEnNzpKNcJ2iCI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Products\\XuongRongSaoBien.png"
+    },
+    {
       "Identity": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\js\\active.js",
       "SourceId": "Cay.Canh.Web.HDT",
       "SourceType": "Discovered",
@@ -3440,6 +3776,48 @@
       "OriginalItemSpec": "wwwroot\\scss\\style.scss"
     },
     {
+      "Identity": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\shop.html",
+      "SourceId": "Cay.Canh.Web.HDT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\",
+      "BasePath": "_content/Cay.Canh.Web.HDT",
+      "RelativePath": "shop#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sudwlz2yhn",
+      "Integrity": "3LAasCap9knWlziRdMhBTK1HGq3rf21leUN56K05/hw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\shop.html"
+    },
+    {
+      "Identity": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\shop-details.html",
+      "SourceId": "Cay.Canh.Web.HDT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\",
+      "BasePath": "_content/Cay.Canh.Web.HDT",
+      "RelativePath": "shop-details#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z3eaks0stu",
+      "Integrity": "7+kVzpIdgG9TmIqTmwK2xxV0t5+xoOmAeZbNPDf6Dzw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\shop-details.html"
+    },
+    {
       "Identity": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\style.css",
       "SourceId": "Cay.Canh.Web.HDT",
       "SourceType": "Discovered",
@@ -3454,8 +3832,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ub0yjr6au6",
-      "Integrity": "KlXtmZDtO4ZeP74z279swAF4oQKY5b7bV9xoqzuujqU=",
+      "Fingerprint": "ppoty791v4",
+      "Integrity": "oy+EkvHPC7jbG3Ni6g/X8BfXuoKJ7C/Ap/7er5EKWRk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\style.css"
@@ -3506,7 +3884,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 Nov 2024 12:07:34 GMT"
+          "Value": "Thu, 21 Nov 2024 00:35:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3551,7 +3929,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 Nov 2024 12:07:34 GMT"
+          "Value": "Thu, 21 Nov 2024 00:35:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3596,7 +3974,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 Nov 2024 12:07:34 GMT"
+          "Value": "Thu, 21 Nov 2024 00:35:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3633,7 +4011,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 Nov 2024 12:07:34 GMT"
+          "Value": "Thu, 21 Nov 2024 00:35:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11274,6 +11652,1318 @@
       ]
     },
     {
+      "Route": "img/Products/bonsai_MaiDoQuyen.ele2dwksgv.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\bonsai_MaiDoQuyen.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1277267"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nlzEKf4qMMDvf2o4JwPtycJAavVjvwLpCYEieYzY4Ac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 01:05:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ele2dwksgv"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Products/bonsai_MaiDoQuyen.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nlzEKf4qMMDvf2o4JwPtycJAavVjvwLpCYEieYzY4Ac="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/bonsai_MaiDoQuyen.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\bonsai_MaiDoQuyen.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1277267"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nlzEKf4qMMDvf2o4JwPtycJAavVjvwLpCYEieYzY4Ac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 01:05:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nlzEKf4qMMDvf2o4JwPtycJAavVjvwLpCYEieYzY4Ac="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/bonsai_SamNui.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\bonsai_SamNui.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "566218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8p3FWfhKA9lRfU8ymYKbLdzrkvcXqIp/AXNLu1d3iMY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 02:13:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8p3FWfhKA9lRfU8ymYKbLdzrkvcXqIp/AXNLu1d3iMY="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/bonsai_SamNui.u56zcqytnk.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\bonsai_SamNui.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "566218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8p3FWfhKA9lRfU8ymYKbLdzrkvcXqIp/AXNLu1d3iMY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 02:13:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u56zcqytnk"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Products/bonsai_SamNui.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8p3FWfhKA9lRfU8ymYKbLdzrkvcXqIp/AXNLu1d3iMY="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/bonsai_Thong.o6rro05ugp.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\bonsai_Thong.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1889905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YKqlUDSeLGYAsNRZYSQI0oLpoj4XttQPtkOg5WjsKk0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 02:13:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o6rro05ugp"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Products/bonsai_Thong.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YKqlUDSeLGYAsNRZYSQI0oLpoj4XttQPtkOg5WjsKk0="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/bonsai_Thong.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\bonsai_Thong.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1889905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YKqlUDSeLGYAsNRZYSQI0oLpoj4XttQPtkOg5WjsKk0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 02:13:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YKqlUDSeLGYAsNRZYSQI0oLpoj4XttQPtkOg5WjsKk0="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/Cau_TieuTram.4d6dm3nw6q.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\Cau_TieuTram.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "588855"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iGzS24DQZ9zGO73rlSK+Lcn6P0Y/3EWgxRW7NwnrVM4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 01:16:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4d6dm3nw6q"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Products/Cau_TieuTram.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iGzS24DQZ9zGO73rlSK+Lcn6P0Y/3EWgxRW7NwnrVM4="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/Cau_TieuTram.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\Cau_TieuTram.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "588855"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iGzS24DQZ9zGO73rlSK+Lcn6P0Y/3EWgxRW7NwnrVM4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 01:16:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iGzS24DQZ9zGO73rlSK+Lcn6P0Y/3EWgxRW7NwnrVM4="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/cayluoiho.eudn4sk54m.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\cayluoiho.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "251957"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1plx3RZq914X10wyhe5YciydrPpsn+iFvmk0Wgzn6fY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 01:13:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eudn4sk54m"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Products/cayluoiho.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1plx3RZq914X10wyhe5YciydrPpsn+iFvmk0Wgzn6fY="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/cayluoiho.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\cayluoiho.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "251957"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1plx3RZq914X10wyhe5YciydrPpsn+iFvmk0Wgzn6fY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 01:13:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1plx3RZq914X10wyhe5YciydrPpsn+iFvmk0Wgzn6fY="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/chau_caytrangnguyen.gzwzxfnnp1.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\chau_caytrangnguyen.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "185395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vB6mO+MWhKc/J51RHT95RsmQNtnwnOLBLzgOVREBWtk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 01:07:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gzwzxfnnp1"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Products/chau_caytrangnguyen.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vB6mO+MWhKc/J51RHT95RsmQNtnwnOLBLzgOVREBWtk="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/chau_caytrangnguyen.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\chau_caytrangnguyen.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "185395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vB6mO+MWhKc/J51RHT95RsmQNtnwnOLBLzgOVREBWtk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 01:07:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vB6mO+MWhKc/J51RHT95RsmQNtnwnOLBLzgOVREBWtk="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/DaBupDo.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\DaBupDo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "721940"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W3oS1ZGrRLXq0Sx57gjS2i/tKTsUzM1/18DGu5l6Jk4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 02:12:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W3oS1ZGrRLXq0Sx57gjS2i/tKTsUzM1/18DGu5l6Jk4="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/DaBupDo.xdnt6x4hd1.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\DaBupDo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "721940"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W3oS1ZGrRLXq0Sx57gjS2i/tKTsUzM1/18DGu5l6Jk4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 02:12:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xdnt6x4hd1"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Products/DaBupDo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W3oS1ZGrRLXq0Sx57gjS2i/tKTsUzM1/18DGu5l6Jk4="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/DuongXiPhuong.1eqd9t5b5a.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\DuongXiPhuong.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "696119"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2RMKY+TS0IQM7hTrFAIlkeTxnYYt8akSrm5JkI3B1ZY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 01:24:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1eqd9t5b5a"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Products/DuongXiPhuong.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2RMKY+TS0IQM7hTrFAIlkeTxnYYt8akSrm5JkI3B1ZY="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/DuongXiPhuong.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\DuongXiPhuong.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "696119"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2RMKY+TS0IQM7hTrFAIlkeTxnYYt8akSrm5JkI3B1ZY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 01:24:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2RMKY+TS0IQM7hTrFAIlkeTxnYYt8akSrm5JkI3B1ZY="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/LanHoDiep.8b2etd9iib.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\LanHoDiep.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4004397"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NKQBIVTweFw4Ajk3TKTzozZ4ck0GJdKZOHO7fLegqvg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 01:15:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8b2etd9iib"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Products/LanHoDiep.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NKQBIVTweFw4Ajk3TKTzozZ4ck0GJdKZOHO7fLegqvg="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/LanHoDiep.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\LanHoDiep.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4004397"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NKQBIVTweFw4Ajk3TKTzozZ4ck0GJdKZOHO7fLegqvg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 01:15:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NKQBIVTweFw4Ajk3TKTzozZ4ck0GJdKZOHO7fLegqvg="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/LanQuanTu.miery1qnwz.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\LanQuanTu.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "746650"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PugAjnduc1Md2VVfFNgnnb4hUNN5oxsP5VjUYTYLdAI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 02:11:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "miery1qnwz"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Products/LanQuanTu.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PugAjnduc1Md2VVfFNgnnb4hUNN5oxsP5VjUYTYLdAI="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/LanQuanTu.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\LanQuanTu.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "746650"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PugAjnduc1Md2VVfFNgnnb4hUNN5oxsP5VjUYTYLdAI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 02:11:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PugAjnduc1Md2VVfFNgnnb4hUNN5oxsP5VjUYTYLdAI="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/senda.85e5vfox34.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\senda.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "298886"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JE7/QVRsExbZCvRUuNIwWE6ww6Sl0CxWS8HD2g+K/ac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 01:18:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "85e5vfox34"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Products/senda.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JE7/QVRsExbZCvRUuNIwWE6ww6Sl0CxWS8HD2g+K/ac="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/senda.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\senda.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "298886"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JE7/QVRsExbZCvRUuNIwWE6ww6Sl0CxWS8HD2g+K/ac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 01:18:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JE7/QVRsExbZCvRUuNIwWE6ww6Sl0CxWS8HD2g+K/ac="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/TB_CaySi.mu3yrt9l9d.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\TB_CaySi.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "597122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/qZw+taVoiRT//ycn1tMC8wjSDvaxutAIuTecFunYnw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 01:23:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mu3yrt9l9d"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Products/TB_CaySi.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/qZw+taVoiRT//ycn1tMC8wjSDvaxutAIuTecFunYnw="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/TB_CaySi.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\TB_CaySi.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "597122"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/qZw+taVoiRT//ycn1tMC8wjSDvaxutAIuTecFunYnw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 01:23:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/qZw+taVoiRT//ycn1tMC8wjSDvaxutAIuTecFunYnw="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/trangtrihonhop.fhq2c2jlqj.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\trangtrihonhop.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "226169"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kzYKJV6J+Wxz1/poa+VTU9u31wgr2+NbKKrWz4keD08=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 01:11:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fhq2c2jlqj"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Products/trangtrihonhop.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kzYKJV6J+Wxz1/poa+VTU9u31wgr2+NbKKrWz4keD08="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/trangtrihonhop.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\trangtrihonhop.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "226169"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kzYKJV6J+Wxz1/poa+VTU9u31wgr2+NbKKrWz4keD08=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 01:11:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kzYKJV6J+Wxz1/poa+VTU9u31wgr2+NbKKrWz4keD08="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/TrauBaLaXe.o5hlopkv5p.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\TrauBaLaXe.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "935557"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5Jlf7CbqrEPOxen7sFGLGvr5s/RowdDmBBln3kSj7lU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 01:22:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o5hlopkv5p"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Products/TrauBaLaXe.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5Jlf7CbqrEPOxen7sFGLGvr5s/RowdDmBBln3kSj7lU="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/TrauBaLaXe.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\TrauBaLaXe.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "935557"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5Jlf7CbqrEPOxen7sFGLGvr5s/RowdDmBBln3kSj7lU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 01:22:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5Jlf7CbqrEPOxen7sFGLGvr5s/RowdDmBBln3kSj7lU="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/TrietMocLan.8wovqn7vxw.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\TrietMocLan.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "826077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yNV5NvK1sRAKL9UQBVuqb2Rm4VIjAUU4Uiclk48/0Bo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 01:14:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8wovqn7vxw"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Products/TrietMocLan.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yNV5NvK1sRAKL9UQBVuqb2Rm4VIjAUU4Uiclk48/0Bo="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/TrietMocLan.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\TrietMocLan.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "826077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yNV5NvK1sRAKL9UQBVuqb2Rm4VIjAUU4Uiclk48/0Bo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 01:14:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yNV5NvK1sRAKL9UQBVuqb2Rm4VIjAUU4Uiclk48/0Bo="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/XuongRongSaoBien.jsiwt3g4tx.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\XuongRongSaoBien.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1742353"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I1BpSCcSuyV86aJ8jPtuo18boEPSPYEnNzpKNcJ2iCI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 01:20:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jsiwt3g4tx"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Products/XuongRongSaoBien.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I1BpSCcSuyV86aJ8jPtuo18boEPSPYEnNzpKNcJ2iCI="
+        }
+      ]
+    },
+    {
+      "Route": "img/Products/XuongRongSaoBien.png",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\XuongRongSaoBien.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1742353"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I1BpSCcSuyV86aJ8jPtuo18boEPSPYEnNzpKNcJ2iCI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 01:20:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I1BpSCcSuyV86aJ8jPtuo18boEPSPYEnNzpKNcJ2iCI="
+        }
+      ]
+    },
+    {
       "Route": "js/active.90mavk5xir.js",
       "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\js\\active.js",
       "Selectors": [],
@@ -16850,8 +18540,8 @@
       ]
     },
     {
-      "Route": "style.css",
-      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\style.css",
+      "Route": "shop.html",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\shop.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16860,15 +18550,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "82586"
+          "Value": "43185"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "text/html"
         },
         {
           "Name": "ETag",
-          "Value": "\"KlXtmZDtO4ZeP74z279swAF4oQKY5b7bV9xoqzuujqU=\""
+          "Value": "\"3LAasCap9knWlziRdMhBTK1HGq3rf21leUN56K05/hw=\""
         },
         {
           "Name": "Last-Modified",
@@ -16882,7 +18572,171 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KlXtmZDtO4ZeP74z279swAF4oQKY5b7bV9xoqzuujqU="
+          "Value": "sha256-3LAasCap9knWlziRdMhBTK1HGq3rf21leUN56K05/hw="
+        }
+      ]
+    },
+    {
+      "Route": "shop.sudwlz2yhn.html",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\shop.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43185"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3LAasCap9knWlziRdMhBTK1HGq3rf21leUN56K05/hw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 Nov 2018 08:45:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sudwlz2yhn"
+        },
+        {
+          "Name": "label",
+          "Value": "shop.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3LAasCap9knWlziRdMhBTK1HGq3rf21leUN56K05/hw="
+        }
+      ]
+    },
+    {
+      "Route": "shop-details.html",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\shop-details.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7+kVzpIdgG9TmIqTmwK2xxV0t5+xoOmAeZbNPDf6Dzw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 Nov 2018 08:45:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7+kVzpIdgG9TmIqTmwK2xxV0t5+xoOmAeZbNPDf6Dzw="
+        }
+      ]
+    },
+    {
+      "Route": "shop-details.z3eaks0stu.html",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\shop-details.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7+kVzpIdgG9TmIqTmwK2xxV0t5+xoOmAeZbNPDf6Dzw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 Nov 2018 08:45:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z3eaks0stu"
+        },
+        {
+          "Name": "label",
+          "Value": "shop-details.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7+kVzpIdgG9TmIqTmwK2xxV0t5+xoOmAeZbNPDf6Dzw="
+        }
+      ]
+    },
+    {
+      "Route": "style.css",
+      "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oy+EkvHPC7jbG3Ni6g/X8BfXuoKJ7C/Ap/7er5EKWRk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 30 Nov 2024 13:52:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oy+EkvHPC7jbG3Ni6g/X8BfXuoKJ7C/Ap/7er5EKWRk="
         }
       ]
     },
@@ -16969,7 +18823,7 @@
       ]
     },
     {
-      "Route": "style.ub0yjr6au6.css",
+      "Route": "style.ppoty791v4.css",
       "AssetFile": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT\\wwwroot\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -16979,7 +18833,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "82586"
+          "Value": "88872"
         },
         {
           "Name": "Content-Type",
@@ -16987,11 +18841,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KlXtmZDtO4ZeP74z279swAF4oQKY5b7bV9xoqzuujqU=\""
+          "Value": "\"oy+EkvHPC7jbG3Ni6g/X8BfXuoKJ7C/Ap/7er5EKWRk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 Nov 2018 08:45:48 GMT"
+          "Value": "Sat, 30 Nov 2024 13:52:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17001,7 +18855,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ub0yjr6au6"
+          "Value": "ppoty791v4"
         },
         {
           "Name": "label",
@@ -17009,7 +18863,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-KlXtmZDtO4ZeP74z279swAF4oQKY5b7bV9xoqzuujqU="
+          "Value": "sha256-oy+EkvHPC7jbG3Ni6g/X8BfXuoKJ7C/Ap/7er5EKWRk="
         }
       ]
     }
