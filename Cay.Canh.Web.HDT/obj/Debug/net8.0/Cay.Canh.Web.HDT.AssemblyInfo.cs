@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cay.Canh.Web.HDT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c89d6c20fdf1e10f4888977de43d62ea59e0dcc2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed3f0ff91c6aee233537346b4fa2917dbc6cef6a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cay.Canh.Web.HDT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cay.Canh.Web.HDT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

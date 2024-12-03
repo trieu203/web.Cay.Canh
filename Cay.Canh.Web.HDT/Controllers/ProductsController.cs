@@ -94,7 +94,7 @@ namespace Cay.Canh.Web.HDT.Controllers
             var productQuery = _context.Products.AsQueryable();
 
             // Nếu có từ khóa tìm kiếm, áp dụng lọc theo tên sản phẩm
-            if (query != null)
+            if (!string.IsNullOrWhiteSpace(query))
             {
                 productQuery = productQuery.Where(p => p.ProductName.Contains(query));
             }
@@ -111,13 +111,15 @@ namespace Cay.Canh.Web.HDT.Controllers
                     ProductName = p.ProductName,
                     Price = p.Price,
                     Discount = p.Discount,
-                    ImageUrl = p.ImageUrl,
-                    Description = p.Description,
+                    ImageUrl = p.ImageUrl
                 })
                 .ToListAsync();
 
-            // Trả về kết quả tìm kiếm
-            return View(products);
+            // Tạo đối tượng PaginatedList chứa sản phẩm đã phân trang
+            var paginatedResult = new PaginatedList<ProductVM>(products, totalItems, page, pageSize);
+
+            // Truyền đối tượng PaginatedList vào View
+            return View(paginatedResult);
         }
 
 
