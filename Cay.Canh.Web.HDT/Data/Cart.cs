@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Cay.Canh.Web.HDT.Data;
+﻿namespace Cay.Canh.Web.HDT.Data;
 
 public partial class Cart
 {

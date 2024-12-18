@@ -2,85 +2,84 @@
 
 @{
     ViewData["Title"] = "Chi tiết sản phẩm";
-    Layout = "_LayoutShop";
+    Layout = "_Product";
 }
 
-<!-- ##### Single Product Details Area Start ##### -->
-<section class="single_product_details_area mb-50">
-    <div class="produts-details--content mb-50">
-        <div class="container">
-            <div class="row justify-content-between">
-
-                <div class="col-12 col-md-6 col-lg-5">
-                    <div class="single_product_thumb">
-                        <div id="product_details_slider" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <a class="product-img" href="@Url.Content("~/img/Products/" + Model.ImageUrl + ".png")" title="@Model.ProductName">
-                                        <img class="d-block w-100" src="@Url.Content("~/img/Products/" + Model.ImageUrl + ".png")" alt="1">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6">
-                    <div class="single_product_desc">
-                        <h4 class="title">@Model.ProductName</h4>
-                        <h4 class="price">@Model.Price.ToString("N0") VND</h4>
-                        <div class="short_overview">
-                            <h5>@Model.ProductName: là loại cây được ưa chuộn tại thị trường Việt Nam và mang lại nhiều ý nghĩa trong phong thủy và tài lộc. </h5>
-                        </div>
-                        <div class="products--meta">
-                            <p><span>Chiều Cao:</span> <span>@Model.Height.ToString().Split('.')[0] cm</span></p>
-                            <p><span>Kích thước:</span> <span> @Model.Size</span></p>
-                            <p><span>Tình trạng cây:</span> @(Model.State == "true" ? "Còn hàng" : "Hết hàng")</p>
-                            <p></p>
-                        </div>
-
-                        <!-- Giỏ hàng -->
-                        <div class="cart--area d-flex flex-wrap align-items-center">
-                            <form class="cart clearfix d-flex align-items-center" method="post">
-                                <div class="quantity">
-                                    <span class="qty-minus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty ) &amp;&amp; qty &gt; 1 ) effect.value--;return false;"><i class="fa fa-minus" aria-hidden="true"></i></span>
-                                    <input type="number" class="qty-text" id="qty" step="1" min="1" max="12" name="quantity" value="1">
-                                    <span class="qty-plus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty )) effect.value++;return false;"><i class="fa fa-plus" aria-hidden="true"></i></span>
-                                </div>
-                                <button type="submit" name="addtocart" value="5" class="btn alazea-btn ml-15">Thêm vào giỏ hàng</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    @* Mô tả *@
-    <div class="container">
+<!-- Product Detail Start -->
+<div class="product-detail">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-12">
-                <div class="product_details_tab clearfix">
-                    <!-- Tabs -->
-                    <ul class="nav nav-tabs" role="tablist" id="product-details-tab">
-                        <li class="nav-item">
-                            <a  class="nav-link active" data-toggle="tab" role="tab">Mô tả</a>
-                        </li>
-                    </ul>
-                    <!-- Tab Content -->
-                    <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane fade show active" id="description">
-                            <div class="description_area">
-                                <p>@Model.Description</p>
+                <div class="product-detail-top">
+                    <div class="row align-items-center">
+                        <div class="col-md-5">
+                            <a class="product-img" href="@Url.Content("~/img/Products/" + Model.ImageUrl + ".png")" title="@Model.ProductName">
+                                <img class="d-block w-100" src="@Url.Content("~/img/Products/" + Model.ImageUrl + ".png")" alt="1">
+                            </a>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="product-content">
+                                <h4 class="title">@Model.ProductName</h4>
+
+                                <h6 class="price">Giá: @Model.Price.ToString("N0") VND</h6>
+
+                                <div class="short_overview">
+                                    <h6>@Model.ProductName: là loại cây được ưa chuộn tại thị trường Việt Nam và mang lại nhiều ý nghĩa trong phong thủy và tài lộc. </h6>
+                                </div>
+                                <div class="products--meta">
+                                    <h6><span>Chiều Cao:</span> <span>@Model.Height.ToString().Split('.')[0] cm</span></h6>
+                                    <h6><span>Kích thước:</span> <span> @Model.Size</span></h6>
+                                    <h6><span>Tình trạng cây:</span> @(Model.State == "true" ? "Còn hàng" : "Hết hàng")</h6>
+                                    @if (Model.State == "true")
+                                    {
+                                    <form asp-action="AddToCart" asp-controller="Carts" method="post">
+                                        <input type="hidden" name="id" value="@Model.ProductId" />
+                                        <div class="quantity">
+                                            <h4>Số lượng:</h4>
+                                            <div class="qty">
+                                                <button type="button" class="btn-minus"><i class="fa fa-minus"></i></button>
+                                                <input type="number" name="quantity" value="1" min="1" max="@Model.Quantity" />
+                                                <button type="button" class="btn-plus"><i class="fa fa-plus"></i></button>
+                                            </div>
+                                        </div>
+                                        <div class="action">
+                                            <button type="submit" class="btn">
+                                                <i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng
+                                            </button>
+                                        </div>
+                                    </form>
+                                    }
+                                    else
+                                    {
+                                        <div class="action">
+                                            <button class="btn btn-secondary" disabled>
+                                                <i class="fa fa-ban"></i> Hết hàng
+                                            </button>
+                                        </div>
+                                    }
+
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+
+                <div class="row product-detail-bottom">
+                    <div class="col-lg-12">
+                        <ul class="nav nav-pills nav-justified">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="pill" >Mô tả sản phẩm</a>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div id="description" class="container tab-pane active">
+                                <h7>@Model.Description</h7>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
         </div>
     </div>
-</section>
-<!-- ##### Single Product Details Area End ##### -->
-<!-- ##### Related Product Area Start ##### -->
+</div>
+<!-- Product Detail End -->
 
-<!-- ##### Related Product Area End ##### -->

@@ -1,59 +1,81 @@
 ﻿@model Cay.Canh.Web.HDT.Data.User
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Cập nhật thông tin cá nhân";
+    Layout = "_Product";
 }
 
-<h1>Edit</h1>
+<h1 class="text-center">Cập nhật thông tin cá nhân</h1>
 
-<h4>User</h4>
 <hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
+
+<div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+        <form asp-action="Edit" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <!-- UserId -->
             <input type="hidden" asp-for="UserId" />
+
+            <!-- UserName -->
             <div class="form-group">
-                <label asp-for="UserName" class="control-label"></label>
-                <input asp-for="UserName" class="form-control" />
+                <label asp-for="UserName" class="control-label">Tên người dùng</label>
+                <input asp-for="UserName" class="form-control" placeholder="Nhập tên người dùng" />
                 <span asp-validation-for="UserName" class="text-danger"></span>
             </div>
+
+            <!-- Password -->
             <div class="form-group">
-                <label asp-for="Password" class="control-label"></label>
-                <input asp-for="Password" class="form-control" />
+                <label asp-for="Password" class="control-label">Mật khẩu</label>
+                <input asp-for="Password" type="password" class="form-control" placeholder="Nhập mật khẩu" />
                 <span asp-validation-for="Password" class="text-danger"></span>
             </div>
+
             <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="FullName" class="control-label"></label>
-                <input asp-for="FullName" class="form-control" />
+                <label asp-for="FullName" class="control-label">Tên đầy đủ</label>
+                <input asp-for="FullName" class="form-control" placeholder="Nhập họ và tên" />
                 <span asp-validation-for="FullName" class="text-danger"></span>
             </div>
+
+            <!-- Email -->
             <div class="form-group">
-                <label asp-for="Role" class="control-label"></label>
-                <input asp-for="Role" class="form-control" />
-                <span asp-validation-for="Role" class="text-danger"></span>
+                <label asp-for="Email" class="control-label">Email</label>
+                <input asp-for="Email" class="form-control" placeholder="Nhập email" />
+                <span asp-validation-for="Email" class="text-danger"></span>
             </div>
+
+            <!-- FullName -->
             <div class="form-group">
-                <label asp-for="CreatedDate" class="control-label"></label>
-                <input asp-for="CreatedDate" class="form-control" />
-                <span asp-validation-for="CreatedDate" class="text-danger"></span>
+                <label asp-for="FullName" class="control-label">Họ và tên</label>
+                <input asp-for="FullName" class="form-control" placeholder="Nhập họ và tên" />
+                <span asp-validation-for="FullName" class="text-danger"></span>
             </div>
+
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <label asp-for="NgaySinh" class="control-label">Ngày sinh</label>
+                <input asp-for="NgaySinh" type="date" class="form-control" placeholder="Chọn ngày sinh" />
+                <span asp-validation-for="NgaySinh" class="text-danger"></span>
+            </div>
+
+
+            <!-- Image Upload -->
+            <div class="form-group">
+                <label class="control-label" for="ImageUrl">Chọn hình ảnh</label>
+                <input type="file" name="uploadedImage" class="form-control-file" />
+                <span asp-validation-for="ImageUrl" class="text-danger"></span>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-group text-center">
+                <input type="submit" value="Cập nhật" class="btn btn-success" />
+                <a asp-action="Details" class="btn btn-secondary ml-3">Quay lại</a>
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

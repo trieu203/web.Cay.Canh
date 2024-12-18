@@ -38,6 +38,7 @@ namespace Cay.Canh.Web.HDT.Controllers
                     ProductId = p.ProductId,
                     ProductName = p.ProductName,
                     Price = p.Price,
+                    State = p.State,
                     Discount = p.Discount,
                     ImageUrl = p.ImageUrl
                 })

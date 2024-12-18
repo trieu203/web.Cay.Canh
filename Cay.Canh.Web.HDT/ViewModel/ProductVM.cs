@@ -8,6 +8,7 @@
         public int Discount { get; set; }
         public int Quantity { get; set; }
         public string? ImageUrl { get; set; }
+        public string? State { get; set; }
         public int CartId { get; set; }
         public string? Description { get; set; }
     }

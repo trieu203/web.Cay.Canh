@@ -1,0 +1,5 @@
+D:\DO_AN_MON\XAY_DUNG_PHAN_MEM_HDT\src\a\Cay.Canh.Web.HDT\wwwroot\img\category-1.jpg
+D:\DO_AN_MON\XAY_DUNG_PHAN_MEM_HDT\src\a\Cay.Canh.Web.HDT\wwwroot\img\category-2.jpg
+D:\DO_AN_MON\XAY_DUNG_PHAN_MEM_HDT\src\a\Cay.Canh.Web.HDT\wwwroot\img\slider-1.jpg
+D:\DO_AN_MON\XAY_DUNG_PHAN_MEM_HDT\src\a\Cay.Canh.Web.HDT\wwwroot\img\slider-2.jpg
+D:\DO_AN_MON\XAY_DUNG_PHAN_MEM_HDT\src\a\Cay.Canh.Web.HDT\wwwroot\img\slider-3.jpg

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Cay.Canh.Web.HDT.Data;
+﻿namespace Cay.Canh.Web.HDT.Data;
 
 public partial class CartItem
 {
@@ -14,6 +11,9 @@ public partial class CartItem
     public string? Size { get; set; }
 
     public int Quantity { get; set; }
+    public string? ImageUrl { get; set; }
+
+    public string? ProductName { get; set; }
 
     public decimal PriceAtTime { get; set; }
 
