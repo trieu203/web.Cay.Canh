@@ -1,0 +1,80 @@
+﻿@model Cay.Canh.Web.HDT.Data.Product
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Chi Tiết Sản Phẩm";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4 d-flex justify-content-center">
+    <div class="card shadow-lg p-4" style="width: 40rem;">
+        <h1 class="text-primary text-center">Chi Tiết Sản Phẩm</h1>
+        <h4 class="text-center">Thông Tin Sản Phẩm</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-4">Tên Sản Phẩm</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.ProductName)</dd>
+
+            <dt class="col-sm-4">Giá</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Price)</dd>
+
+            <dt class="col-sm-4">Hình Ảnh</dt>
+            <dd class="col-sm-8">
+                @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                {
+                    <div class="mt-2">
+                        @{
+                            var imageUrl = Model.ImageUrl?.ToString() ?? "";
+                            var imageFile = string.IsNullOrEmpty(System.IO.Path.GetExtension(imageUrl))
+                            ? imageUrl + ".png"
+                            : imageUrl;
+
+                            var imagePath = Url.Content("~/img/Products/" + imageFile);
+                        }
+                        <img src="@imagePath"
+                             alt="@Model.ProductName"
+                             class="img-thumbnail"
+                             style="width: 70px; height: 70px;"
+                             onerror="this.onerror=null; this.src='/img/Products/default.jpg';" />
+                    </div>
+                }
+            </dd>
+            <dt class="col-sm-4">Mô Tả</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Description)</dd>
+
+            <dt class="col-sm-4">Số Lượng</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Quantity)</dd>
+
+            <dt class="col-sm-4">Kích Thước</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Size)</dd>
+
+            <dt class="col-sm-4">Chiều Cao</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Height)</dd>
+
+            <dt class="col-sm-4">Trạng Thái</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.State)</dd>
+
+            <dt class="col-sm-4">Giảm Giá</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Discount)</dd>
+
+            <dt class="col-sm-4">Ngày Tạo</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.CreatedDate)</dd>
+
+            <dt class="col-sm-4">Ngày Cập Nhật</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.UpdatedDate)</dd>
+
+            <dt class="col-sm-4">Danh Mục</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Category.CategoryName)</dd>
+        </dl>
+
+        <div class="text-center mt-4">
+            <a asp-action="EditProduct" asp-route-id="@Model?.ProductId" class="btn btn-primary me-2">Chỉnh Sửa</a>
+            <a asp-action="Product" class="btn btn-secondary">Quay Lại Danh Sách</a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .row dt {
+        font-weight: bold;
+    }
+</style>

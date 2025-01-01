@@ -1,0 +1,88 @@
+﻿@model Cay.Canh.Web.HDT.Data.User
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Xóa Người Dùng";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4 d-flex justify-content-center">
+    <div class="card shadow-lg p-4" style="width: 50rem;">
+        <h1 class="text-danger text-center">Xóa Người Dùng</h1>
+        <h3 class="text-center">Bạn có chắc chắn muốn xóa người dùng này?</h3>
+        <div class="mt-4">
+            <h4 class="text-center">Thông Tin Người Dùng</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-4">Tên Đăng Nhập</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.UserName)</dd>
+
+                <dt class="col-sm-4">Mật Khẩu</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Password)</dd>
+
+                <dt class="col-sm-4">Email</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Email)</dd>
+
+                <dt class="col-sm-4">Họ Tên</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.FullName)</dd>
+
+                <dt class="col-sm-4">Vai Trò</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Role)</dd>
+
+                <dt class="col-sm-4">Số Điện Thoại</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Sdt)</dd>
+
+                <dt class="col-sm-4">Địa Chỉ</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Address)</dd>
+
+                <dt class="col-sm-4">Hình Ảnh</dt>
+                <dd class="col-sm-8">
+                    @{
+                        var imageUrl = Model.ImageUrl?.ToString() ?? ""; // Đảm bảo ImageUrl không null
+                        var imageFile = string.IsNullOrEmpty(System.IO.Path.GetExtension(imageUrl))
+                        ? imageUrl + ".jpg"
+                        : imageUrl;
+
+                        var imagePath = Url.Content("~/img/users/" + imageFile);
+                    }
+                    <img src="@imagePath"
+                         alt=""
+                         class="img-thumbnail"
+                         style="width: 70px; height: 70px;"
+                         onerror="this.onerror=null; this.src='/img/users/user_boy.jpg';" />
+                </dd>
+
+                <dt class="col-sm-4">Ngày Sinh</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.NgaySinh)</dd>
+
+                <dt class="col-sm-4">Ngày Tạo</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.CreatedDate)</dd>
+            </dl>
+        </div>
+
+        <form asp-action="DeleteUser" asp-route-id="@Model.UserId" class="text-center mt-4">
+            <div class="d-flex justify-content-center">
+                <button type="submit" class="btn btn-danger me-2" onclick="return confirmDelete();">Xóa</button>
+                <a asp-action="Index" class="btn btn-secondary">Quay Lại Danh Sách</a>
+            </div>
+        </form>
+
+    </div>
+</div>
+
+<style>
+    .row dt {
+        font-weight: bold;
+    }
+
+    img {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+    }
+</style>
+<script>
+    function confirmDelete() {
+        return confirm("Bạn có chắc chắn muốn xóa người dùng này? Hành động này không thể hoàn tác!");
+    }
+</script>

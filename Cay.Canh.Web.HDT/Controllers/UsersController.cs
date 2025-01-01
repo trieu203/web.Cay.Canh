@@ -113,7 +113,7 @@ namespace Cay.Canh.Web.HDT.Controllers
             var user = new User
             {
                 UserName = model.UserName,
-                Password = model.Password, 
+                Password = model.Password,
                 Email = model.Email,
                 FullName = model.FullName,
                 Sdt = model.SDT,
@@ -252,91 +252,116 @@ namespace Cay.Canh.Web.HDT.Controllers
             {
                 return NotFound();
             }
-            return View(user);
+
+            var userEditVM = new UserEditVM
+            {
+                UserId = user.UserId,
+                UserName = user.UserName,
+                Email = user.Email,
+                FullName = user.FullName,
+                Sdt = user.Sdt,
+                Address = user.Address,
+                NgaySinh = user.NgaySinh,
+                ImageUrl = user.ImageUrl,
+                Role = user.Role
+            };
+
+            return View(userEditVM);
         }
+
 
         // POST: Users/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("UserId,UserName,Password,Email,FullName,Role,Sdt,Address,NgaySinh,ImageUrl")] User user, IFormFile? uploadedImage)
+        public async Task<IActionResult> Edit(int id, UserEditVM model)
         {
-            if (id != user.UserId)
+            if (id != model.UserId)
             {
                 return NotFound();
             }
 
             if (ModelState.IsValid)
             {
+                if (model.NgaySinh.HasValue)
+                {
+                    var today = DateOnly.FromDateTime(DateTime.Today);
+                    var birthDate = DateOnly.FromDateTime(model.NgaySinh.Value);
+
+                    var age = today.Year - birthDate.Year;
+                    if (birthDate > today.AddYears(-age))
+                    {
+                        age--;
+                    }
+
+                    if (age < 15)
+                    {
+                        ModelState.AddModelError(string.Empty, "Bạn phải ít nhất 15 tuổi để chỉnh sửa thông tin.");
+                        return View(model);
+                    }
+                }
+
+                var existingUser = await _context.Users
+                    .FirstOrDefaultAsync(u => (u.UserName == model.UserName || u.Email == model.Email) && u.UserId != model.UserId);
+                if (existingUser != null)
+                {
+                    ModelState.AddModelError(string.Empty, "Tên người dùng hoặc email đã tồn tại.");
+                    return View(model);
+                }
+
+                var emailRegex = @"^[^\s@]+@[^\s@]+\.[^\s@]+$";
+                if (!Regex.IsMatch(model.Email, emailRegex))
+                {
+                    ModelState.AddModelError("Email", "Địa chỉ email không hợp lệ.");
+                    return View(model);
+                }
+
+                string imageFileName = model.ImageUrl;
+
+                if (model.Image != null)
+                {
+                    var fileExtension = Path.GetExtension(model.Image.FileName);
+                    imageFileName = Guid.NewGuid().ToString() + fileExtension;
+
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "img", "users", imageFileName);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await model.Image.CopyToAsync(stream);
+                    }
+                }
+
                 try
                 {
-                    var existingUser = await _context.Users.FindAsync(id);
-
-                    if (existingUser == null)
+                    var user = await _context.Users.FindAsync(id);
+                    if (user == null)
                     {
                         return NotFound();
                     }
 
-                    // Kiểm tra điều kiện tuổi > 20
-                    if (user.NgaySinh.HasValue && user.NgaySinh.Value.AddYears(20) > DateTime.Now)
+                    // Cập nhật thông tin người dùng
+                    user.UserName = model.UserName;
+                    user.Email = model.Email;
+                    user.FullName = model.FullName;
+                    user.Sdt = model.Sdt;
+                    user.Address = model.Address;
+                    user.NgaySinh = model.NgaySinh;
+                    user.ImageUrl = imageFileName;
+                    user.Role = model.Role ?? "User";
+
+                    // Nếu mật khẩu không được nhập mới, giữ mật khẩu cũ
+                    if (!string.IsNullOrEmpty(model.Password))
                     {
-                        ModelState.AddModelError("NgaySinh", "Ngày sinh phải đủ 20 tuổi trở lên.");
+                        user.Password = model.Password;
                     }
 
-
-                    // Kiểm tra định dạng email bằng EmailAddressAttribute
-                    if (!string.IsNullOrEmpty(user.Email) && !new EmailAddressAttribute().IsValid(user.Email))
-                    {
-                        ModelState.AddModelError("Email", "Địa chỉ email không hợp lệ.");
-                    }
-
-                    // Nếu có lỗi thì trả về lại view mà không lưu dữ liệu
-                    if (!ModelState.IsValid)
-                    {
-                        return View(user);
-                    }
-
-                    // Nếu có file hình ảnh được tải lên
-                    if (uploadedImage != null)
-                    {
-                        // Xử lý việc lưu hình ảnh vào thư mục "wwwroot/img/users"
-                        var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "img", "users", uploadedImage.FileName);
-
-                        // Lưu hình ảnh vào thư mục
-                        using (var stream = new FileStream(filePath, FileMode.Create))
-                        {
-                            await uploadedImage.CopyToAsync(stream);
-                        }
-
-                        // Cập nhật trường ImageUrl với đường dẫn đến hình ảnh mới
-                        user.ImageUrl = Path.Combine("img", "users", uploadedImage.FileName);
-                    }
-                    else
-                    {
-                        // Nếu không có hình ảnh mới, giữ nguyên giá trị cũ
-                        user.ImageUrl = existingUser.ImageUrl;
-                    }
-
-                    // Cập nhật các trường khác
-                    existingUser.UserName = user.UserName ?? existingUser.UserName;
-                    existingUser.Password = string.IsNullOrEmpty(user.Password) ? existingUser.Password : user.Password; 
-                    existingUser.Email = user.Email ?? existingUser.Email;
-                    existingUser.FullName = user.FullName ?? existingUser.FullName;
-                    existingUser.Role = user.Role ?? existingUser.Role;
-                    existingUser.Sdt = user.Sdt ?? existingUser.Sdt;
-                    existingUser.Address = user.Address ?? existingUser.Address;
-                    existingUser.NgaySinh = user.NgaySinh ?? existingUser.NgaySinh;
-
-                    // Lưu thay đổi vào cơ sở dữ liệu
-                    _context.Update(existingUser);
+                    _context.Update(user);
                     await _context.SaveChangesAsync();
-
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!UserExists(user.UserId))
+                    if (!UserExists(model.UserId))
                     {
                         return NotFound();
                     }
@@ -345,11 +370,14 @@ namespace Cay.Canh.Web.HDT.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Details));  // Redirect đến trang Details sau khi cập nhật thành công
+
+                TempData["SuccessMessage"] = "Cập nhật thông tin thành công!";
+                return RedirectToAction(nameof(Details));
             }
 
-            // Trả về lại View nếu model không hợp lệ
-            return View(user);
+
+
+            return View(model);
         }
 
 

@@ -1,0 +1,43 @@
+﻿@model Cay.Canh.Web.HDT.Data.Category
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Xóa Danh Mục";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4 d-flex justify-content-center">
+    <div class="card shadow-lg p-4" style="width: 40rem;">
+        <h1 class="text-danger text-center">Xóa Danh Mục</h1>
+        <h3 class="text-center">Bạn có chắc chắn muốn xóa?</h3>
+        <div class="mt-4">
+            <h4 class="text-center">Thông Tin Danh Mục</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-4">Tên Danh Mục</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.CategoryName)</dd>
+
+                <dt class="col-sm-4">Mô Tả</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Description)</dd>
+
+                <dt class="col-sm-4">Ngày Tạo</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.CreatedDate)</dd>
+
+                <dt class="col-sm-4">Ngày Cập Nhật</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.UpdatedDate)</dd>
+            </dl>
+        </div>
+
+        <form asp-action="DeleteCategory" asp-route-id="@Model.CategoryId" class="text-center mt-4">
+            <input type="hidden" asp-for="CategoryId" />
+            <button type="submit" class="btn btn-danger me-2">Xóa</button>
+            <a asp-action="Category" class="btn btn-secondary">Quay Lại Danh Sách</a>
+        </form>
+    </div>
+</div>
+
+<style>
+    .row dt {
+        font-weight: bold;
+    }
+</style>

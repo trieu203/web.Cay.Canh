@@ -1,0 +1,46 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Quản lý";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid mt-4">
+    <!-- Tiêu đề trang -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1>Chào mừng đến với Trang Quản Lý</h1>
+    </div>
+
+    <!-- Thiết kế mới -->
+    <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card shadow-sm border-0">
+                <div class="card-body text-center">
+                    <a class="nav-link" asp-area="admin" asp-controller="HomeAdmin" asp-action="Category"><img src="~/img/admin/danhmuc.jpg" class="rounded-circle mb-3" alt="..."></a>
+                    <a class="nav-link" asp-area="admin" asp-controller="HomeAdmin" asp-action="Category"> <h5 class="card-title">Quản lý danh mục sản phẩm</h5> </a>
+                    <p class="card-text text-muted">Dễ dàng quản lý danh mục sản phẩm.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card shadow-sm border-0">
+                <div class="card-body text-center">
+                    <a class="nav-link" asp-area="admin" asp-controller="HomeAdmin" asp-action="Product"><img src="~/img/admin/product.jpg" class="rounded-circle mb-3" alt="..."></a>
+                    <a class="nav-link" asp-area="admin" asp-controller="HomeAdmin" asp-action="Product"><h5 class="card-title">Quản lý sản phẩm</h5></a>
+                    <p class="card-text text-muted">Dễ dàng quản lý sản phẩm.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card shadow-sm border-0">
+                <div class="card-body text-center">
+                    <a class="nav-link" asp-area="admin" asp-controller="HomeAdmin" asp-action="User"><img src="~/img/admin/user.jpg" class="rounded-circle mb-3" alt="..."></a>
+                    <a class="nav-link" asp-area="admin" asp-controller="HomeAdmin" asp-action="User"><h5 class="card-title">Quản lý khách hàng</h5></a>
+                    <p class="card-text text-muted">Theo dõi và quản lý thông tin khách hàng.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

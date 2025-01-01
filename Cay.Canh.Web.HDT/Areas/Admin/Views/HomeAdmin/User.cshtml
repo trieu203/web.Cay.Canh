@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Cay.Canh.Web.HDT.Data.User>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Danh Sách Người Dùng";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <h1 class="text-primary">Danh Sách Người Dùng</h1>
+
+    <table class="table table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Tên Đăng Nhập</th>
+                <th>Họ Tên</th>
+                <th>Số Điện Thoại</th>
+                <th>Hình Ảnh</th>
+                <th>Ngày Sinh</th>
+                <th>Hành Động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (!Model.Any())
+            {
+                <tr>
+                    <td colspan="11" class="text-center">Không có dữ liệu để hiển thị</td>
+                </tr>
+            }
+            else
+            {
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.UserName)</td>
+                        <td>@Html.DisplayFor(modelItem => item.FullName)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Sdt)</td>
+                        <td class="text-center">
+                            <img src="@Url.Content(string.IsNullOrEmpty(item.ImageUrl) ? "~/img/users/default-user.png" : $"~/img/users/{item.ImageUrl}")"
+                                 alt="@item.UserName"
+                                 class="img-thumbnail"
+                                 style="width: 70px; height: 70px;"
+                                 onerror="this.onerror=null; this.src='@Url.Content("~/img/users/default-user.png")';" />
+                        </td>
+
+                        <td>@Html.DisplayFor(modelItem => item.NgaySinh)</td>
+                        <td>
+                            <a class="btn btn-info btn-sm" asp-action="DetailUser" asp-route-id="@item.UserId">
+                                <i class="fa fa-info-circle"></i> Chi Tiết
+                            </a>
+                            <a class="btn btn-danger btn-sm" asp-action="DeleteUser" asp-route-id="@item.UserId">
+                                <i class="fa fa-trash"></i> Xóa
+                            </a>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+
+<style>
+    .table th, .table td {
+        vertical-align: middle;
+    }
+
+    .btn {
+        margin-right: 5px;
+    }
+</style>

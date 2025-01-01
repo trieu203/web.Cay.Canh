@@ -15,15 +15,15 @@
                     <div class="nav-item dropdown">
                         @if (User.Identity.IsAuthenticated)
                         {
-                            <!-- Hiển thị tên và hình ảnh của người dùng -->
                             <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">
                                 <img src="@Url.Content("~/img/users/" + (User.FindFirst("ImageUrl")?.Value ?? "user_boy.jpg"))"
-                                     alt="User Image" class="rounded-circle" width="60" height="60"
+                                     alt="User Image"
+                                     class="rounded-circle"
+                                     width="60"
+                                     height="60"
                                      onerror="this.onerror=null;this.src='~/img/users/user_boy.jpg';" />
-
                                 <span>@User.Identity.Name</span>
                             </button>
-
 
                             <div class="dropdown-menu dropdown-menu-right">
                                 <a asp-controller="Users" asp-action="DangXuat" class="dropdown-item">Đăng xuất</a>
@@ -39,7 +39,6 @@
                         }
                         else
                         {
-                            <!-- Hiển thị nếu chưa đăng nhập -->
                             <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">
                                 Đăng nhập/Đăng ký
                             </button>

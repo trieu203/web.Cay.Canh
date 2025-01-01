@@ -578,3 +578,6 @@ D:\DO_AN_MON\XAY_DUNG_PHAN_MEM_HDT\src\a\Cay.Canh.Web.HDT\obj\Debug\net8.0\Cay.C
 D:\DO_AN_MON\XAY_DUNG_PHAN_MEM_HDT\src\a\Cay.Canh.Web.HDT\obj\Debug\net8.0\ref\Cay.Canh.Web.HDT.dll
 D:\DO_AN_MON\XAY_DUNG_PHAN_MEM_HDT\src\a\Cay.Canh.Web.HDT\bin\Debug\net8.0\AutoMapper.dll
 D:\DO_AN_MON\XAY_DUNG_PHAN_MEM_HDT\src\a\Cay.Canh.Web.HDT\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\DO_AN_MON\XAY_DUNG_PHAN_MEM_HDT\src\a\Cay.Canh.Web.HDT\bin\Debug\net8.0\X.PagedList.dll
+D:\DO_AN_MON\XAY_DUNG_PHAN_MEM_HDT\src\a\Cay.Canh.Web.HDT\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll
+D:\DO_AN_MON\XAY_DUNG_PHAN_MEM_HDT\src\a\Cay.Canh.Web.HDT\obj\Debug\net8.0\Cay.Canh.Web.HDT.MvcApplicationPartsAssemblyInfo.cs
