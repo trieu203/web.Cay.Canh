@@ -12,9 +12,23 @@
                 <div class="product-detail-top">
                     <div class="row align-items-center">
                         <div class="col-md-5">
-                            <a class="product-img" href="@Url.Content("~/img/Products/" + Model.ImageUrl + ".png")" title="@Model.ProductName">
-                                <img class="d-block w-100" src="@Url.Content("~/img/Products/" + Model.ImageUrl + ".png")" alt="1">
-                            </a>
+                        @{
+                            // Lấy ImageUrl từ item, đảm bảo không null
+                            var imageUrl = Model.ImageUrl?.ToString() ?? "";
+
+                            // Kiểm tra nếu thiếu phần mở rộng (".jpg") thì thêm vào
+                            var imageFile = string.IsNullOrEmpty(System.IO.Path.GetExtension(imageUrl))
+                            ? imageUrl + ".png"
+                            : imageUrl;
+
+                            // Đường dẫn đến ảnh
+                            var imagePath = Url.Content("~/img/Products/" + imageFile);
+                        }
+
+                        <a asp-controller="Products" asp-action="Details" asp-route-id="@Model.ProductId">
+                            <img class="img-fluid w-100" src="@imagePath" alt="@Model.ProductName"
+                                 onerror="this.onerror=null; this.src='/img/products/default.jpg';" />
+                        </a>
                         </div>
                         <div class="col-md-7">
                             <div class="product-content">

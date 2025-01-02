@@ -44,6 +44,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERlbGV0ZUNhdGVnb3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/a/Cay.Canh.Web.HDT/Areas/Admin/Views/HomeAdmin/DeleteOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERlbGV0ZU9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/a/Cay.Canh.Web.HDT/Areas/Admin/Views/HomeAdmin/DeleteProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERlbGV0ZVByb2R1Y3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -54,6 +58,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/a/Cay.Canh.Web.HDT/Areas/Admin/Views/HomeAdmin/DetailCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERldGFpbENhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/a/Cay.Canh.Web.HDT/Areas/Admin/Views/HomeAdmin/DetailOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERldGFpbE9yZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/a/Cay.Canh.Web.HDT/Areas/Admin/Views/HomeAdmin/DetailProduct.cshtml]
@@ -68,12 +76,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEVkaXRDYXRlZ29yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/a/Cay.Canh.Web.HDT/Areas/Admin/Views/HomeAdmin/EditOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEVkaXRPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/a/Cay.Canh.Web.HDT/Areas/Admin/Views/HomeAdmin/EditProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEVkaXRQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/a/Cay.Canh.Web.HDT/Areas/Admin/Views/HomeAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/a/Cay.Canh.Web.HDT/Areas/Admin/Views/HomeAdmin/Order.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXE9yZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/a/Cay.Canh.Web.HDT/Areas/Admin/Views/HomeAdmin/Product.cshtml]
@@ -106,6 +122,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/a/Cay.Canh.Web.HDT/Views/CartItems/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydEl0ZW1zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/a/Cay.Canh.Web.HDT/Views/Carts/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcQ2hlY2tvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DO_AN_MON/XAY_DUNG_PHAN_MEM_HDT/src/a/Cay.Canh.Web.HDT/Views/Carts/Create.cshtml]

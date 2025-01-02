@@ -45,7 +45,12 @@
 
             <div class="form-group mb-3">
                 <label asp-for="Size" class="form-label">Kích Thước</label>
-                <input asp-for="Size" class="form-control" placeholder="Nhập kích thước sản phẩm" />
+                <select asp-for="Size" class="form-control">
+                    <option value="">-- Chọn kích thước sản phẩm --</option>
+                    <option value="Small">Nhỏ</option>
+                    <option value="Medium">Vừa</option>
+                    <option value="Large">Lớn</option>
+                </select>
                 <span asp-validation-for="Size" class="text-danger"></span>
             </div>
 

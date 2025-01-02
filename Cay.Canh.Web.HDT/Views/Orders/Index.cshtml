@@ -1,71 +1,78 @@
 ﻿@model IEnumerable<Cay.Canh.Web.HDT.Data.Order>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Lịch sử mua hàng";
+    Layout = "_Product";
 }
 
-<h1>Index</h1>
+<div class="container mt-5">
+    <h1 class="text-center text-primary">Lịch sử mua hàng</h1>
+    <hr />
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.OrderDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TotalAmount)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.OrderStatus)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ShippingAddress)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PhoneNumber)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.User)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.OrderDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TotalAmount)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.OrderStatus)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ShippingAddress)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PhoneNumber)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.User.UserId)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.OrderId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.OrderId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.OrderId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    @if (!Model.Any())
+    {
+        <div class="alert alert-warning text-center">
+            <h5>Bạn chưa có đơn hàng nào.</h5>
+            <a asp-controller="Products" asp-action="Index" class="btn btn-primary mt-3">Quay lại mua sắm</a>
+        </div>
+    }
+    else
+    {
+        <table class="table table-hover table-bordered mt-4">
+            <thead class="table-dark text-center">
+                <tr>
+                    <th>Ngày đặt</th>
+                    <th>Tổng tiền (VNĐ)</th>
+                    <th>Trạng thái</th>
+                    <th>Địa chỉ giao hàng</th>
+                    <th>Email</th>
+                    <th>Số điện thoại</th>
+                    <th>Người dùng</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="text-center">
+                            @item.OrderDate?.ToString("dd/MM/yyyy")
+                        </td>
+                        <td class="text-end">
+                            @string.Format("{0:N0}", item.TotalAmount)
+                        </td>
+                        <td>
+                            @if (item.OrderStatus == "Pending")
+                            {
+                                <span class="badge bg-warning">Đang chờ</span>
+                            }
+                            else if (item.OrderStatus == "Completed")
+                            {
+                                <span class="badge bg-success">Hoàn thành</span>
+                            }
+                            else if (item.OrderStatus == "Cancelled")
+                            {
+                                <span class="badge bg-danger">Đã hủy</span>
+                            }
+                            else
+                            {
+                                @Html.DisplayFor(modelItem => item.OrderStatus)
+                            }
+                        </td>
+                        <td>
+                            @item.ShippingAddress
+                        </td>
+                        <td>
+                            @item.Email
+                        </td>
+                        <td>
+                            @item.PhoneNumber
+                        </td>
+                        <td>
+                            @item.User?.UserName
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

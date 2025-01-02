@@ -26,19 +26,23 @@ namespace Cay.Canh.Web.HDT.Controllers
         {
             if (id == null)
             {
-                return NotFound();
+                return NotFound(); // Nếu id = null, trả về lỗi 404
             }
 
             var order = await _context.Orders
-                .Include(o => o.User)
+                .Include(o => o.User) 
+                .Include(o => o.OrderItems) 
+                .ThenInclude(oi => oi.Product) 
                 .FirstOrDefaultAsync(m => m.OrderId == id);
+
             if (order == null)
             {
-                return NotFound();
+                return NotFound(); 
             }
 
-            return View(order);
+            return View(order); 
         }
+
 
         // GET: Orders/Create
         public IActionResult Create()

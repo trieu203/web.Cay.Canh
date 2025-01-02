@@ -87,8 +87,9 @@
                                         </h6>
                                     </div>
                                     <div class="cart-btn">
-                                        <button>Cập nhật giỏ hàng</button>
-                                        <button>Thanh toán</button>
+                                        <form asp-action="Checkout" asp-controller="Carts" method="get">
+                                            <button type="submit" class="btn btn-primary">Thanh toán</button>
+                                        </form>
                                     </div>
                                 </div>
                             </div>

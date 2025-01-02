@@ -40,8 +40,22 @@
                                         <a asp-controller="Products" asp-action="Details" asp-route-id="@item.ProductId">@item.ProductName</a>
                                     </div>
                                     <div class="product-image">
+                                        @{
+                                            // Lấy ImageUrl từ item, đảm bảo không null
+                                            var imageUrl = item.ImageUrl?.ToString() ?? "";
+
+                                            // Kiểm tra nếu thiếu phần mở rộng (".jpg") thì thêm vào
+                                            var imageFile = string.IsNullOrEmpty(System.IO.Path.GetExtension(imageUrl))
+                                            ? imageUrl + ".png"
+                                            : imageUrl;
+
+                                            // Đường dẫn đến ảnh
+                                            var imagePath = Url.Content("~/img/Products/" + imageFile);
+                                        }
+
                                         <a asp-controller="Products" asp-action="Details" asp-route-id="@item.ProductId">
-                                            <img title="Click để Xem chi tiết" src="@Url.Content("~/img/Products/" + item.ImageUrl + ".png")" alt="@item.ProductName">
+                                            <img class="img-fluid w-100" src="@imagePath" alt="@item.ProductName"
+                                                 onerror="this.onerror=null; this.src='/img/products/default.jpg';" />
                                         </a>
                                         <div class="product-tag">
                                             @if (item.Discount > 0)

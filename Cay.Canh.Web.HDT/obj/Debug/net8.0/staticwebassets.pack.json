@@ -3037,6 +3037,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\9399e3ea-76d0-44c8-a815-0fd1479553b1.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\9399e3ea-76d0-44c8-a815-0fd1479553b1.jpg"
+    },
+    {
       "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\Cau_TieuTram.png",
       "PackagePath": "staticwebassets\\img\\Products\\Cau_TieuTram.png"
     },
@@ -3093,6 +3097,10 @@
       "PackagePath": "staticwebassets\\img\\Products\\chau_caytrangnguyen.png"
     },
     {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\e70b925d-5164-4e44-a130-f1a1339ae7b4.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\e70b925d-5164-4e44-a130-f1a1339ae7b4.jpg"
+    },
+    {
       "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\senda.png",
       "PackagePath": "staticwebassets\\img\\Products\\senda.png"
     },
@@ -3119,6 +3127,10 @@
     {
       "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\wwwroot\\img\\admin\\size.jpg",
       "PackagePath": "staticwebassets\\img\\admin\\size.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\wwwroot\\img\\admin\\tree.jpg",
+      "PackagePath": "staticwebassets\\img\\admin\\tree.jpg"
     },
     {
       "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\wwwroot\\img\\admin\\user.jpg",
@@ -3183,6 +3195,14 @@
     {
       "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\wwwroot\\img\\users\\ahin.jpg",
       "PackagePath": "staticwebassets\\img\\users\\ahin.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\wwwroot\\img\\users\\b807ced6-71fe-491a-9c1c-2b4b8872f249.jpg",
+      "PackagePath": "staticwebassets\\img\\users\\b807ced6-71fe-491a-9c1c-2b4b8872f249.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\wwwroot\\img\\users\\bc50a8db-782d-4a09-a5eb-6508406d614c.jpg",
+      "PackagePath": "staticwebassets\\img\\users\\bc50a8db-782d-4a09-a5eb-6508406d614c.jpg"
     },
     {
       "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\wwwroot\\img\\users\\d0cd1677-021b-455e-b13b-16404a068d7e.jpg",

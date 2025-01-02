@@ -8,7 +8,7 @@ namespace Cay.Canh.Web.HDT.Models.Components
     {
         public IViewComponentResult Invoke()
         {
-            var cart = HttpContext.Session.Get<List<CartItem>>(Constand.Cart_Key) ?? new List<CartItem>();
+            var cart = HttpContext.Session.Get<List<CartItemVM>>(Constand.Cart_Key) ?? new List<CartItemVM>();
 
             // Tính tổng số lượng và tổng giá trị giỏ hàng
             var quantity = cart.Sum(p => p.Quantity);

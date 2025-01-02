@@ -6,6 +6,7 @@ wwwroot\img\admin\order.jpg
 wwwroot\img\admin\product.jpg
 wwwroot\img\admin\review.jpg
 wwwroot\img\admin\size.jpg
+wwwroot\img\admin\tree.jpg
 wwwroot\img\admin\user.jpg
 wwwroot\img\cay_1.jpg
 wwwroot\img\cay_2.jpg
@@ -14,6 +15,7 @@ wwwroot\img\cay_4.jpg
 wwwroot\img\cay_5.jpg
 wwwroot\img\cay_6.jpg
 wwwroot\img\cay_7.jpg
+wwwroot\img\Products\9399e3ea-76d0-44c8-a815-0fd1479553b1.jpg
 wwwroot\img\Products\bonsai_MaiDoQuyen.png
 wwwroot\img\Products\bonsai_SamNui.png
 wwwroot\img\Products\bonsai_Thong.png
@@ -22,6 +24,7 @@ wwwroot\img\Products\cayluoiho.png
 wwwroot\img\Products\chau_caytrangnguyen.png
 wwwroot\img\Products\DaBupDo.png
 wwwroot\img\Products\DuongXiPhuong.png
+wwwroot\img\Products\e70b925d-5164-4e44-a130-f1a1339ae7b4.jpg
 wwwroot\img\Products\LanHoDiep.png
 wwwroot\img\Products\LanQuanTu.png
 wwwroot\img\Products\senda.png
@@ -37,6 +40,8 @@ wwwroot\img\users\75da674a-eeba-4433-b4d4-f6e314b9c6c1.jpg
 wwwroot\img\users\9386461e-7c68-4ecd-b3fb-048024429a9c.jpg
 wwwroot\img\users\a5df276e-5be7-4e35-8e79-95ad5c67b89b.jpg
 wwwroot\img\users\ahin.jpg
+wwwroot\img\users\b807ced6-71fe-491a-9c1c-2b4b8872f249.jpg
+wwwroot\img\users\bc50a8db-782d-4a09-a5eb-6508406d614c.jpg
 wwwroot\img\users\d0cd1677-021b-455e-b13b-16404a068d7e.jpg
 wwwroot\img\users\dac822c1-08d9-4d59-a4db-5dbbf3bae3ee.jpg
 wwwroot\img\users\dd5239b6-169c-45e0-af06-fbfb0481d8c6.jpg

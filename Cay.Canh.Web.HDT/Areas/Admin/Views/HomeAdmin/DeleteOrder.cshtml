@@ -1,0 +1,65 @@
+﻿@model Cay.Canh.Web.HDT.Data.Order
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Xóa đơn hàng";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="text-center text-danger my-4">Xóa đơn hàng</h1>
+
+<div class="card shadow-sm p-4">
+    <h4 class="text-secondary">Bạn có chắc chắn muốn xóa đơn hàng này?</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">
+            Ngày đặt hàng
+        </dt>
+        <dd class="col-sm-9">
+            @Model?.OrderDate?.ToString("dd/MM/yyyy")
+        </dd>
+        <dt class="col-sm-3">
+            Tổng tiền
+        </dt>
+        <dd class="col-sm-9">
+            @Model?.TotalAmount.ToString("N0") VNĐ
+        </dd>
+        <dt class="col-sm-3">
+            Trạng thái
+        </dt>
+        <dd class="col-sm-9">
+            @(Model?.OrderStatus == "Pending" ? "Đang xử lý" : Model?.OrderStatus == "Completed" ? "Hoàn thành" : Model?.OrderStatus == "Cancelled" ? "Đã hủy" : Model?.OrderStatus)
+        </dd>
+        <dt class="col-sm-3">
+            Địa chỉ giao hàng
+        </dt>
+        <dd class="col-sm-9">
+            @Model?.ShippingAddress
+        </dd>
+        <dt class="col-sm-3">
+            Email
+        </dt>
+        <dd class="col-sm-9">
+            @Model?.Email
+        </dd>
+        <dt class="col-sm-3">
+            Số điện thoại
+        </dt>
+        <dd class="col-sm-9">
+            @Model?.PhoneNumber
+        </dd>
+        <dt class="col-sm-3">
+            Người dùng
+        </dt>
+        <dd class="col-sm-9">
+            @Model?.User?.UserId
+        </dd>
+    </dl>
+
+    <form asp-action="DeleteOrder" asp-route-id="@Model.OrderId" method="post" class="mt-4">
+        <input type="hidden" asp-for="OrderId" />
+        <div class="text-center">
+            <button type="submit" class="btn btn-danger me-2">Xóa</button>
+            <a asp-action="Order" class="btn btn-secondary">Quay lại danh sách</a>
+        </div>
+    </form>
+</div>
