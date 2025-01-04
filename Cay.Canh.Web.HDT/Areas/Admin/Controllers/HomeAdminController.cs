@@ -347,6 +347,10 @@ namespace Cay.Canh.Web.HDT.Areas.Admin.Controllers
                 ? updatedProduct.Price
                 : existingProduct.Price;
 
+            existingProduct.Quantity = updatedProduct.Quantity >= 0
+                ? updatedProduct.Quantity
+                : existingProduct.Quantity;
+
             // Xử lý hình ảnh
             if (ImageFile != null && ImageFile.Length > 0)
             {

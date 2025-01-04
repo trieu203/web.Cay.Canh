@@ -25,8 +25,7 @@ namespace Cay.Canh.Web.HDT.Models.Components
                 // Nếu người dùng chưa đăng nhập, trả về giỏ hàng trống
                 return View("CartPanel", new Cartmodel
                 {
-                    Quantity = 0,
-                    Total = 0
+                    Quantity = 0
                 });
             }
 
