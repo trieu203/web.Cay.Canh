@@ -48,10 +48,22 @@
             <dd class="col-sm-8">@Html.DisplayFor(model => model.Size)</dd>
 
             <dt class="col-sm-4">Chiều Cao</dt>
-            <dd class="col-sm-8">@Html.DisplayFor(model => model.Height)</dd>
+            <dd class="col-sm-8">
+                @(Model.Height.HasValue ? $"{Model.Height.Value.ToString("0")} cm" : "Không xác định")
+            </dd>
 
             <dt class="col-sm-4">Trạng Thái</dt>
-            <dd class="col-sm-8">@Html.DisplayFor(model => model.State)</dd>
+            <dd class="col-sm-8">
+                @{
+                    string stateDisplay = Model.State switch
+                    {
+                        "InStock" => "Còn hàng",
+                        "OutOfStock" => "Hết hàng",
+                        _ => "Không xác định"
+                    };
+                }
+                @stateDisplay
+            </dd>
 
             <dt class="col-sm-4">Giảm Giá</dt>
             <dd class="col-sm-8">@Html.DisplayFor(model => model.Discount)</dd>

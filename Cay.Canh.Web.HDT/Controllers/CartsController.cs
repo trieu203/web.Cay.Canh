@@ -178,9 +178,18 @@ namespace Cay.Canh.Web.HDT.Controllers
                 return RedirectToAction("Dangnhap", "Users");
             }
 
+            // Lấy thông tin người dùng từ CSDL
+            var user = _context.Users.FirstOrDefault(u => u.UserId == int.Parse(userId));
+            if (user == null)
+            {
+                TempData["ErrorMessage"] = "Không tìm thấy thông tin người dùng.";
+                return RedirectToAction("Index", "Carts");
+            }
+
+            // Lấy thông tin giỏ hàng
             var cart = _context.Carts
                 .Include(c => c.CartItems)
-                .ThenInclude(ci => ci.Product) // Bao gồm thông tin sản phẩm
+                .ThenInclude(ci => ci.Product)
                 .FirstOrDefault(c => c.UserId == int.Parse(userId) && c.IsActive);
 
             if (cart == null || !cart.CartItems.Any())
@@ -189,17 +198,20 @@ namespace Cay.Canh.Web.HDT.Controllers
                 return RedirectToAction("Index", "Carts");
             }
 
-            // Kiểm tra dữ liệu null trước khi ánh xạ
+            // Điền thông tin người dùng vào ViewModel
             var model = new CheckoutViewModel
             {
-                CartItems = cart.CartItems
-                    .Where(ci => ci.Product != null) // Lọc ra các mục không hợp lệ
-                    .Select(ci => new CartItemViewModel
-                    {
-                        ProductName = ci.Product.ProductName ?? "Không có tên sản phẩm",
-                        Quantity = ci.Quantity,
-                        PriceAtTime = ci.PriceAtTime
-                    }).ToList(),
+                FullName = user.FullName,
+                Email = user.Email,
+                PhoneNumber = user.Sdt,
+                ShippingAddress = user.Address,
+                CartItems = cart.CartItems.Select(ci => new CartItemViewModel
+                {
+                    ProductName = ci.Product?.ProductName ?? "Không có tên sản phẩm",
+                    Quantity = ci.Quantity,
+                    PriceAtTime = ci.PriceAtTime,
+                    Discount = ci.Product?.Discount ?? 0
+                }).ToList()
             };
 
             return View(model);
@@ -210,15 +222,11 @@ namespace Cay.Canh.Web.HDT.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Checkout(CheckoutViewModel model)
         {
-            if (!ModelState.IsValid)
-            {
-                return View(model);
-            }
-
             var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
 
             if (string.IsNullOrEmpty(userId))
             {
+                TempData["ErrorMessage"] = "Bạn cần đăng nhập để đặt hàng.";
                 return RedirectToAction("Dangnhap", "Users");
             }
 
@@ -233,12 +241,44 @@ namespace Cay.Canh.Web.HDT.Controllers
                 return RedirectToAction("Index", "Carts");
             }
 
+            if (!ModelState.IsValid)
+            {
+                TempData["ErrorMessage"] = "Thông tin nhập không hợp lệ. Vui lòng kiểm tra lại.";
+                // Giữ lại thông tin giỏ hàng để hiển thị trong View
+                model.CartItems = cart.CartItems.Select(ci => new CartItemViewModel
+                {
+                    ProductName = ci.Product?.ProductName ?? "Không có tên sản phẩm",
+                    Quantity = ci.Quantity,
+                    PriceAtTime = ci.PriceAtTime,
+                    Discount = ci.Product?.Discount ?? 0
+                }).ToList();
+                return View(model);
+            }
+
+            // Kiểm tra nếu thông tin người dùng còn thiếu
+            if (string.IsNullOrEmpty(model.FullName) ||
+                string.IsNullOrEmpty(model.Email) ||
+                string.IsNullOrEmpty(model.PhoneNumber) ||
+                string.IsNullOrEmpty(model.ShippingAddress))
+            {
+                TempData["ErrorMessage"] = "Thông tin thanh toán không được để trống.";
+                model.CartItems = cart.CartItems.Select(ci => new CartItemViewModel
+                {
+                    ProductName = ci.Product?.ProductName ?? "Không có tên sản phẩm",
+                    Quantity = ci.Quantity,
+                    PriceAtTime = ci.PriceAtTime,
+                    Discount = ci.Product?.Discount ?? 0
+                }).ToList();
+                return View(model);
+            }
+
             // Tạo đơn hàng
             var order = new Order
             {
                 UserId = int.Parse(userId),
                 OrderDate = DateTime.Now,
-                TotalAmount = cart.CartItems.Sum(ci => ci.PriceAtTime * ci.Quantity) + 50000,
+                TotalAmount = cart.CartItems.Sum(ci => ci.PriceAtTime * ci.Quantity) -
+                              cart.CartItems.Sum(ci => (ci.PriceAtTime * ci.Quantity * ci.Product?.Discount ?? 0) / 100) + 50000,
                 OrderStatus = "Pending",
                 ShippingAddress = model.ShippingAddress,
                 Email = model.Email,
@@ -276,69 +316,51 @@ namespace Cay.Canh.Web.HDT.Controllers
         }
 
 
-        public async Task<IActionResult> UpdateQuantity(int cartItemId, int change)
-        {
-            // Tìm sản phẩm trong giỏ hàng
-            var cartItem = await _context.CartItems.FindAsync(cartItemId);
-            if (cartItem == null)
-            {
-                return NotFound();
-            }
-
-            // Kiểm tra số lượng tồn kho trong cơ sở dữ liệu
-            var product = await _context.Products.FindAsync(cartItem.ProductId);
-            if (product == null)
-            {
-                return NotFound();
-            }
-
-            // Tính toán số lượng mới
-            int newQuantity = cartItem.Quantity + change;
-
-            if (newQuantity <= 0)
-            {
-                // Không cho phép số lượng nhỏ hơn 1
-                cartItem.Quantity = 1;
-            }
-            else if (newQuantity > product.Quantity)
-            {
-                // Không cho phép vượt quá số lượng tồn kho
-                cartItem.Quantity = product.Quantity;
-            }
-            else
-            {
-                // Cập nhật số lượng mới hợp lệ
-                cartItem.Quantity = newQuantity;
-            }
-
-            // Lưu thay đổi
-            _context.Update(cartItem);
-            await _context.SaveChangesAsync();
-
-            // Trả về PartialView để cập nhật dữ liệu
-            return Json(new { success = true, newQuantity = cartItem.Quantity, total = cartItem.Quantity * cartItem.PriceAtTime });
-        }
-
-
-        public async Task<IActionResult> UpdateCartItem(int cartItemId, int quantity)
+        //update quantity
+        [HttpPost]
+        public async Task<IActionResult> UpdateQuantity(int id, int quantity)
         {
             if (quantity <= 0)
             {
-                return BadRequest("Số lượng phải lớn hơn 0.");
+                return Json(new { success = false, message = "Số lượng không hợp lệ." });
             }
 
-            var cartItem = await _context.CartItems.FindAsync(cartItemId);
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            if (string.IsNullOrEmpty(userId))
+            {
+                return Json(new { success = false, message = "Vui lòng đăng nhập." });
+            }
+
+            var cartItem = await _context.CartItems
+                .Include(ci => ci.Product)
+                .FirstOrDefaultAsync(ci => ci.CartItemId == id && ci.Cart.UserId == int.Parse(userId) && ci.Cart.IsActive);
+
             if (cartItem == null)
             {
-                return NotFound();
+                return Json(new { success = false, message = "Không tìm thấy sản phẩm." });
             }
 
+            if (quantity > cartItem.Product.Quantity)
+            {
+                return Json(new { success = false, message = "Số lượng vượt quá số lượng trong kho." });
+            }
+
+            // Cập nhật số lượng sản phẩm
             cartItem.Quantity = quantity;
             await _context.SaveChangesAsync();
 
-            return RedirectToAction(nameof(Index));
-        }
+            // Tính toán tổng tiền giỏ hàng
+            var cart = await _context.Carts
+                .Include(c => c.CartItems)
+                .ThenInclude(ci => ci.Product)
+                .FirstOrDefaultAsync(c => c.UserId == int.Parse(userId) && c.IsActive);
 
+            var subtotal = cart.CartItems.Sum(ci => ci.Quantity * ci.PriceAtTime);
+            var total = subtotal + 100000; // Thêm phí vận chuyển
+
+            return Json(new { success = true, subtotal, total });
+        }
 
 
         // GET: Carts/Details/5

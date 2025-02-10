@@ -375,8 +375,6 @@ namespace Cay.Canh.Web.HDT.Controllers
                 return RedirectToAction(nameof(Details));
             }
 
-
-
             return View(model);
         }
 

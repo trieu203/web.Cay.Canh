@@ -49,8 +49,18 @@
                                             </td>
                                             <td>@item.PriceAtTime.ToString("N0") VND</td>
                                             <td>
-                                                <div class="qty">
-                                                    <input type="number" name="quantity" value="@item.Quantity" min="1" readonly>
+                                                <div class="qty-wrapper d-flex align-items-center justify-content-center">
+                                                    <button onclick="updateQuantity(@item.CartItemId, @item.Quantity - 1)"
+                                                            class="btn-qty btn-decrease"
+                                                    @(item.Quantity <= 1 ? "disabled" : "")>
+                                                        -
+                                                    </button>
+                                                    <input type="number" value="@item.Quantity" readonly class="qty-input text-center" />
+                                                    <button onclick="updateQuantity(@item.CartItemId, @item.Quantity + 1)"
+                                                            class="btn-qty btn-increase"
+                                                    @(item.Quantity >= item.Product.Quantity ? "disabled" : "")>
+                                                        +
+                                                    </button>
                                                 </div>
                                             </td>
 
@@ -103,3 +113,89 @@
 </div>
 <!-- Cart End -->
 
+<script>
+            function updateQuantity(cartItemId, quantity) {
+        if (quantity <= 0) {
+            alert("Số lượng không hợp lệ!");
+            return;
+        }
+
+        $.ajax({
+            url: '/Carts/UpdateQuantity',
+            method: 'POST',
+            data: { id: cartItemId, quantity: quantity },
+            success: function (response) {
+                // Cập nhật giao diện theo dữ liệu mới
+                const subtotalElement = document.getElementById('subtotal');
+                const totalElement = document.getElementById('cart-total');
+
+                // Dữ liệu trả về từ server (cập nhật số lượng và tổng tiền)
+                const updatedData = response; // response phải là JSON
+
+                // Cập nhật tổng tiền tạm tính
+                if (updatedData && updatedData.subtotal) {
+                    subtotalElement.textContent = updatedData.subtotal.toLocaleString() + " VNĐ";
+                    totalElement.textContent = updatedData.total.toLocaleString() + " VNĐ";
+                }
+
+                // Reload lại bảng sản phẩm hoặc từng dòng sản phẩm (cần thêm đoạn logic nếu cần)
+                location.reload(); // Hoặc thay đổi dữ liệu cục bộ
+            },
+            error: function (xhr, status, error) {
+                alert('Có lỗi xảy ra. Vui lòng thử lại.');
+            }
+        });
+    }
+
+</script>
+
+<style>
+    /* Wrapper chính */
+    .qty-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    /* Nút tăng/giảm số lượng */
+    .btn-qty {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        background-color: #28a745;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+    }
+
+        /* Hiệu ứng khi hover */
+        .btn-qty:hover {
+            background-color: #218838;
+        }
+
+        /* Nút khi disabled */
+        .btn-qty:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+    /* Input hiển thị số lượng */
+    .qty-input {
+        width: 50px;
+        height: 32px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        background-color: #fff;
+        color: #333;
+    }
+</style>

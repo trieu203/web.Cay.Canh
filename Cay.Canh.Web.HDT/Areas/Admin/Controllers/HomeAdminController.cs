@@ -263,6 +263,12 @@ namespace Cay.Canh.Web.HDT.Areas.Admin.Controllers
                 ModelState.AddModelError("", "Tên danh mục và Mô tả không được để trống.");
             }
 
+            // Kiểm tra nếu giá giảm vượt quá 100
+            if (product.Discount > 100)
+            {
+                ModelState.AddModelError("Discount", "Giá giảm không được vượt quá 100%.");
+            }
+
             // Kiểm tra ModelState
             if (ModelState.IsValid)
             {
@@ -303,6 +309,8 @@ namespace Cay.Canh.Web.HDT.Areas.Admin.Controllers
                 return RedirectToAction("Product");
             }
 
+            // Cung cấp lại danh sách danh mục để hiển thị trong View
+            ViewBag.CategoryName = new SelectList(await _context.Categories.ToListAsync(), "CategoryId", "CategoryName");
             return View(product);
         }
 
@@ -334,7 +342,30 @@ namespace Cay.Canh.Web.HDT.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            // Kiểm tra giá trị nhập vào, nếu rỗng thì giữ lại giá trị cũ
+            // Kiểm tra giá trị Discount
+            if (updatedProduct.Discount > 100 || updatedProduct.Discount < 0)
+            {
+                ModelState.AddModelError("Discount", "Giá giảm phải nằm trong khoảng từ 0 đến 100.");
+            }
+
+            // Kiểm tra ModelState trước khi tiếp tục
+            if (!ModelState.IsValid)
+            {
+                // Trả lại giá trị cũ trong view
+                updatedProduct.ProductName = existingProduct.ProductName;
+                updatedProduct.Description = existingProduct.Description;
+                updatedProduct.Price = existingProduct.Price;
+                updatedProduct.Quantity = existingProduct.Quantity;
+                updatedProduct.State = existingProduct.State;
+                updatedProduct.ImageUrl = existingProduct.ImageUrl;
+                updatedProduct.Discount = existingProduct.Discount;
+                updatedProduct.CategoryId = existingProduct.CategoryId;
+
+                ViewBag.CategoryName = new SelectList(_context.Categories, "CategoryId", "CategoryName", updatedProduct.CategoryId);
+                return View(updatedProduct);
+            }
+
+            // Cập nhật thông tin sản phẩm
             existingProduct.ProductName = string.IsNullOrEmpty(updatedProduct.ProductName)
                 ? existingProduct.ProductName
                 : updatedProduct.ProductName;
@@ -351,29 +382,29 @@ namespace Cay.Canh.Web.HDT.Areas.Admin.Controllers
                 ? updatedProduct.Quantity
                 : existingProduct.Quantity;
 
+            existingProduct.State = string.IsNullOrEmpty(updatedProduct.State)
+                ? existingProduct.State
+                : updatedProduct.State;
+
             // Xử lý hình ảnh
             if (ImageFile != null && ImageFile.Length > 0)
             {
                 var fileExtension = Path.GetExtension(ImageFile.FileName);
                 var fileName = $"{Guid.NewGuid()}{fileExtension}";
 
-                // Đường dẫn lưu file
                 var uploadPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "img", "Products");
                 var filePath = Path.Combine(uploadPath, fileName);
 
-                // Tạo thư mục nếu chưa có
                 if (!Directory.Exists(uploadPath))
                 {
                     Directory.CreateDirectory(uploadPath);
                 }
 
-                // Lưu file ảnh mới
                 using (var stream = new FileStream(filePath, FileMode.Create))
                 {
                     await ImageFile.CopyToAsync(stream);
                 }
 
-                // Xóa hình ảnh cũ nếu tồn tại
                 if (!string.IsNullOrEmpty(existingProduct.ImageUrl))
                 {
                     var oldFilePath = Path.Combine(uploadPath, existingProduct.ImageUrl);
@@ -383,7 +414,6 @@ namespace Cay.Canh.Web.HDT.Areas.Admin.Controllers
                     }
                 }
 
-                // Gán tên file mới
                 existingProduct.ImageUrl = fileName;
             }
 
@@ -398,15 +428,15 @@ namespace Cay.Canh.Web.HDT.Areas.Admin.Controllers
                 }
             }
 
-            // Gán ngày cập nhật hiện tại
+            existingProduct.Discount = updatedProduct.Discount;
             existingProduct.UpdatedDate = DateOnly.FromDateTime(DateTime.Now);
 
-            // Lưu cập nhật vào CSDL
             _context.Products.Update(existingProduct);
             await _context.SaveChangesAsync();
 
             return RedirectToAction("Product");
         }
+
 
         // Delete Product
         [Route("DeleteProduct")]
@@ -441,6 +471,13 @@ namespace Cay.Canh.Web.HDT.Areas.Admin.Controllers
                 if (product == null)
                 {
                     TempData["Message"] = "Sản phẩm không tồn tại.";
+                    return RedirectToAction("Product");
+                }
+
+                // Kiểm tra trạng thái sản phẩm
+                if (product.State == "InStock")
+                {
+                    TempData["Message"] = "Không thể xóa sản phẩm đang ở trạng thái 'Còn hàng'.";
                     return RedirectToAction("Product");
                 }
 

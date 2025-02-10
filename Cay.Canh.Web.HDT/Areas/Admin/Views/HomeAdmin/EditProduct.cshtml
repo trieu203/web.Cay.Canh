@@ -71,18 +71,20 @@
 
             <div class="form-group mb-3">
                 <label asp-for="Height" class="form-label">Chiều Cao</label>
-                <input asp-for="Height" class="form-control" placeholder="Nhập chiều cao sản phẩm" />
+                <input asp-for="Height" class="form-control" placeholder="Nhập chiều cao sản phẩm"
+                       value="@(Model.Height.HasValue ? Model.Height.Value.ToString("0") : "")" />
                 <span asp-validation-for="Height" class="text-danger"></span>
             </div>
 
             <div class="form-group mb-3">
                 <label asp-for="State" class="form-label">Trạng Thái</label>
                 <select asp-for="State" class="form-control">
-                    <option value="New">Còn hàng</option>
-                    <option value="Used">Đã qua sử dụng</option>
+                    <option value="true" selected="@(Model.State == "true")">Còn hàng</option>
+                    <option value="false" selected="@(Model.State == "false")">Hết hàng</option>
                 </select>
                 <span asp-validation-for="State" class="text-danger"></span>
             </div>
+
 
             <div class="form-group mb-3">
                 <label asp-for="Discount" class="form-label">Giảm Giá (%)</label>

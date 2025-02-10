@@ -41,6 +41,12 @@
                         </div>
                     }
                 </dd>
+                @if (TempData["Message"] != null)
+                {
+                    <div class="alert alert-danger text-center" role="alert">
+                        @TempData["Message"]
+                    </div>
+                }
 
                 <dt class="col-sm-4">Mô Tả</dt>
                 <dd class="col-sm-8">@Html.DisplayFor(model => model.Description)</dd>
@@ -52,7 +58,9 @@
                 <dd class="col-sm-8">@Html.DisplayFor(model => model.Size)</dd>
 
                 <dt class="col-sm-4">Chiều Cao</dt>
-                <dd class="col-sm-8">@Html.DisplayFor(model => model.Height)</dd>
+                <dd class="col-sm-8">
+                    @(Model.Height.HasValue ? $"{Model.Height.Value.ToString("0")} cm" : "Không xác định")
+                </dd>
 
                 <dt class="col-sm-4">Trạng Thái</dt>
                 <dd class="col-sm-8">@Html.DisplayFor(model => model.State)</dd>

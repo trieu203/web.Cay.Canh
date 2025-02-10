@@ -3037,6 +3037,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\5af8dc2c-0069-4fbe-bc5d-d82145b5ed6a.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\5af8dc2c-0069-4fbe-bc5d-d82145b5ed6a.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\8637cf70-7838-4d3b-ba88-9f3219a959c8.jpg",
+      "PackagePath": "staticwebassets\\img\\Products\\8637cf70-7838-4d3b-ba88-9f3219a959c8.jpg"
+    },
+    {
       "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\wwwroot\\img\\Products\\9399e3ea-76d0-44c8-a815-0fd1479553b1.jpg",
       "PackagePath": "staticwebassets\\img\\Products\\9399e3ea-76d0-44c8-a815-0fd1479553b1.jpg"
     },
@@ -3165,12 +3173,24 @@
       "PackagePath": "staticwebassets\\img\\cay_7.jpg"
     },
     {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\wwwroot\\img\\users\\033a45e9-15a0-4e3f-b85f-8f132b52beec.jpg",
+      "PackagePath": "staticwebassets\\img\\users\\033a45e9-15a0-4e3f-b85f-8f132b52beec.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\wwwroot\\img\\users\\21435db3-23b9-47cf-9881-d2e43431690c.jpg",
+      "PackagePath": "staticwebassets\\img\\users\\21435db3-23b9-47cf-9881-d2e43431690c.jpg"
+    },
+    {
       "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\wwwroot\\img\\users\\2266ccdb-ec93-4964-90e0-cabd7d459682.jpg",
       "PackagePath": "staticwebassets\\img\\users\\2266ccdb-ec93-4964-90e0-cabd7d459682.jpg"
     },
     {
       "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\wwwroot\\img\\users\\24dfa169-2922-4a04-983e-78586fb9bf65.jpg",
       "PackagePath": "staticwebassets\\img\\users\\24dfa169-2922-4a04-983e-78586fb9bf65.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\wwwroot\\img\\users\\29d4ae14-9946-40bd-a392-025151e0e054.jpg",
+      "PackagePath": "staticwebassets\\img\\users\\29d4ae14-9946-40bd-a392-025151e0e054.jpg"
     },
     {
       "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\wwwroot\\img\\users\\4063a0cd-d20c-4b07-8c57-65f6d01d342e.jpg",
@@ -3193,12 +3213,20 @@
       "PackagePath": "staticwebassets\\img\\users\\a5df276e-5be7-4e35-8e79-95ad5c67b89b.jpg"
     },
     {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\wwwroot\\img\\users\\ae456ae8-a45b-4d68-b1c2-e1abdac8f64e.jpg",
+      "PackagePath": "staticwebassets\\img\\users\\ae456ae8-a45b-4d68-b1c2-e1abdac8f64e.jpg"
+    },
+    {
       "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\wwwroot\\img\\users\\ahin.jpg",
       "PackagePath": "staticwebassets\\img\\users\\ahin.jpg"
     },
     {
       "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\wwwroot\\img\\users\\b807ced6-71fe-491a-9c1c-2b4b8872f249.jpg",
       "PackagePath": "staticwebassets\\img\\users\\b807ced6-71fe-491a-9c1c-2b4b8872f249.jpg"
+    },
+    {
+      "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\wwwroot\\img\\users\\baa7b3e2-c97a-4b63-b385-15b5f36af0b9.jpg",
+      "PackagePath": "staticwebassets\\img\\users\\baa7b3e2-c97a-4b63-b385-15b5f36af0b9.jpg"
     },
     {
       "Id": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\wwwroot\\img\\users\\bc50a8db-782d-4a09-a5eb-6508406d614c.jpg",
