@@ -123,7 +123,7 @@ namespace Cay.Canh.Web.HDT.Controllers
             }
 
             // 6. Cập nhật lại số lượng trong kho
-            product.Quantity -= quantity;
+            //product.Quantity -= quantity;
 
             // 7. Lưu thay đổi vào database
             await _context.SaveChangesAsync();
@@ -300,6 +300,14 @@ namespace Cay.Canh.Web.HDT.Controllers
                     Size = cartItem.Size
                 };
                 _context.OrderItems.Add(orderItem);
+
+                // Trừ số lượng sản phẩm trong kho
+                var product = await _context.Products.FindAsync(cartItem.ProductId);
+                if (product != null)
+                {
+                    product.Quantity -= cartItem.Quantity;
+                    _context.Products.Update(product);
+                }
             }
 
             // Xóa các mục trong giỏ hàng

@@ -1,53 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A9B662BA-5A45-4A9D-AB7A-AD367347B6ED}|Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT.csproj|d:\\do_an_mon\\xay_dung_phan_mem_hdt\\src\\a\\cay.canh.web.hdt\\areas\\admin\\views\\homeadmin\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A9B662BA-5A45-4A9D-AB7A-AD367347B6ED}|Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT.csproj|solutionrelative:cay.canh.web.hdt\\areas\\admin\\views\\homeadmin\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9B662BA-5A45-4A9D-AB7A-AD367347B6ED}|Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT.csproj|d:\\do_an_mon\\xay_dung_phan_mem_hdt\\src\\a\\cay.canh.web.hdt\\areas\\admin\\controllers\\homeadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9B662BA-5A45-4A9D-AB7A-AD367347B6ED}|Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT.csproj|solutionrelative:cay.canh.web.hdt\\areas\\admin\\controllers\\homeadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EditProduct.cshtml",
-              "DocumentMoniker": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\Areas\\Admin\\Views\\HomeAdmin\\EditProduct.cshtml",
-              "RelativeDocumentMoniker": "Cay.Canh.Web.HDT\\Areas\\Admin\\Views\\HomeAdmin\\EditProduct.cshtml",
-              "ToolTip": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\Areas\\Admin\\Views\\HomeAdmin\\EditProduct.cshtml",
-              "RelativeToolTip": "Cay.Canh.Web.HDT\\Areas\\Admin\\Views\\HomeAdmin\\EditProduct.cshtml",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFIAAABgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-27T09:34:41.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeAdminController.cs",
-              "DocumentMoniker": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
-              "RelativeDocumentMoniker": "Cay.Canh.Web.HDT\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
-              "ToolTip": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
-              "RelativeToolTip": "Cay.Canh.Web.HDT\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
-              "ViewState": "AgIAAKsBAAAAAAAAAADwv0wBAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-27T09:11:14.13Z"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

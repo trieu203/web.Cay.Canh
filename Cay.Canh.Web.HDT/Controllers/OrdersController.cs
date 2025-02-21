@@ -93,14 +93,11 @@ namespace Cay.Canh.Web.HDT.Controllers
             // Hoàn trả số lượng sản phẩm về kho
             foreach (var item in order.OrderItems)
             {
-                // Tìm sản phẩm theo ProductId và Size
-                var productSize = _context.Products
-                    .FirstOrDefault(ps => ps.ProductId == item.ProductId && ps.Size == item.Size);
-
-                if (productSize != null)
+                var product = _context.Products.FirstOrDefault(p => p.ProductId == item.ProductId);
+                if (product != null)
                 {
-                    productSize.Quantity += item.Quantity; // Hoàn trả số lượng
-                    _context.Products.Update(productSize);
+                    product.Quantity += item.Quantity; // Hoàn trả số lượng sản phẩm
+                    _context.Products.Update(product);
                 }
             }
 
@@ -114,6 +111,7 @@ namespace Cay.Canh.Web.HDT.Controllers
             TempData["SuccessMessage"] = "Đơn hàng đã được hủy thành công và số lượng sản phẩm đã được hoàn trả.";
             return RedirectToAction("History");
         }
+
 
         //Xác nhận
         [HttpPost]
