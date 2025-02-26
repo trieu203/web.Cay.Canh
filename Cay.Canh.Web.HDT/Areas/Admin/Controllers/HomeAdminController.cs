@@ -783,6 +783,14 @@ namespace Cay.Canh.Web.HDT.Areas.Admin.Controllers
                     return RedirectToAction("Order");
                 }
 
+                // Kiểm tra trạng thái đơn hàng
+                if (order.OrderStatus != "Completed" && order.OrderStatus != "Cancelled")
+                {
+                    _logger.LogWarning("Không thể xóa đơn hàng ID: {Id} vì chưa hoàn thành hoặc bị hủy.", id);
+                    TempData["Message"] = "Chỉ có thể xóa đơn hàng đã Hoàn thành hoặc Bị hủy.";
+                    return RedirectToAction("Order");
+                }
+
                 _logger.LogInformation("Tìm thấy đơn hàng với ID: {Id}. Số lượng sản phẩm: {Count}", id, order.OrderItems.Count);
 
                 if (order.OrderItems != null && order.OrderItems.Any())

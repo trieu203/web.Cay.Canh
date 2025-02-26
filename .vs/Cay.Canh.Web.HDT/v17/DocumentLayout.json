@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B662BA-5A45-4A9D-AB7A-AD367347B6ED}|Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT.csproj|d:\\do_an_mon\\xay_dung_phan_mem_hdt\\src\\a\\cay.canh.web.hdt\\areas\\admin\\controllers\\homeadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B662BA-5A45-4A9D-AB7A-AD367347B6ED}|Cay.Canh.Web.HDT\\Cay.Canh.Web.HDT.csproj|solutionrelative:cay.canh.web.hdt\\areas\\admin\\controllers\\homeadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeAdminController.cs",
+              "DocumentMoniker": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
+              "RelativeDocumentMoniker": "Cay.Canh.Web.HDT\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
+              "ToolTip": "D:\\DO_AN_MON\\XAY_DUNG_PHAN_MEM_HDT\\src\\a\\Cay.Canh.Web.HDT\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
+              "RelativeToolTip": "Cay.Canh.Web.HDT\\Areas\\Admin\\Controllers\\HomeAdminController.cs",
+              "ViewState": "AgIAAOQCAAAAAAAAAAAIwAIDAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T00:59:05.584Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
